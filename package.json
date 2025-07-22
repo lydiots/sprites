@@ -2,7 +2,11 @@
   "name": "@lydiots/sprites",
   "version": "0.1.0",
   "description": "Sprite library for Lydia's interactive games (characters, effects, animations).",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -p tsconfig.json",
@@ -14,7 +18,17 @@
     "type": "git",
     "url": "git+https://github.com/lydiots/sprites.git"
   },
-  "keywords": [],
+  "keywords": [
+    "sprites",
+    "game",
+    "animation",
+    "pixijs",
+    "atlas",
+    "texture",
+    "character",
+    "typescript",
+    "gamedev"
+  ],
   "author": "Raymund Ács",
   "license": "MIT",
   "bugs": {
@@ -22,7 +36,6 @@
   },
   "homepage": "https://github.com/lydiots/sprites#readme",
   "devDependencies": {
-    "tsc": "^2.0.4",
     "typescript": "^5.8.3"
   }
 }
