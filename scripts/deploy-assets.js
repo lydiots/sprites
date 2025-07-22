@@ -84,7 +84,7 @@ async function generateDeploymentManifest() {
 async function main() {
   console.log("🚀 Sprite Assets CDN Information\n");
   console.log("ℹ️  CDN is now handled by a separate repository");
-  console.log("📍 CDN Repository: https://github.com/lydiots/sprites-cdn");
+  console.log("📍 CDN Repository: https://github.com/lydiots/lydiots-cdn");
   console.log("🌐 CDN URL: https://cdn.lydiots.com");
   console.log("");
 
@@ -99,11 +99,11 @@ async function main() {
     console.log("   npm run generate:types:cdn");
     console.log("");
     console.log("2️⃣  Copy assets to CDN repo:");
-    console.log("   cp -r dist/characters/* ../sprites-cdn/characters/");
+    console.log("   cp -r dist/characters/* ../lydiots-cdn/characters/");
     console.log("");
     console.log("3️⃣  Deploy CDN repo:");
     console.log(
-      "   cd ../sprites-cdn && git add . && git commit -m 'Update assets' && git push"
+      "   cd ../lydiots-cdn && git add . && git commit -m 'Update assets' && git push"
     );
     console.log("");
     console.log("4️⃣  Publish npm package:");

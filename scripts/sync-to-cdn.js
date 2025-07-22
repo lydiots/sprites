@@ -5,7 +5,7 @@ const path = require("path");
 const { execSync } = require("child_process");
 
 // Configuration
-const CDN_REPO_PATH = process.env.CDN_REPO_PATH || "../sprites-cdn";
+const CDN_REPO_PATH = process.env.CDN_REPO_PATH || "../lydiots-cdn";
 const DIST_CHARACTERS = path.join(__dirname, "..", "dist", "characters");
 
 function syncAssetsToCDN() {
@@ -18,7 +18,7 @@ function syncAssetsToCDN() {
       "💡 Set CDN_REPO_PATH environment variable or clone the CDN repo:"
     );
     console.log(
-      "   git clone https://github.com/lydiots/sprites-cdn ../sprites-cdn"
+      "   git clone https://github.com/lydiots/lydiots-cdn ../lydiots-cdn"
     );
     process.exit(1);
   }
