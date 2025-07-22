@@ -7,3 +7,4 @@ raw/
 scripts/
 netlify.toml
 tsconfig.json
+demo/

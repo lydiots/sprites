@@ -11,6 +11,25 @@ A TypeScript-enabled sprite atlas library for Lydia's interactive games, providi
 - 🎯 **PixiJS Compatible**: JSON atlas format works directly with PixiJS
 - 🔧 **Build Scripts**: Automated atlas copying and type generation
 
+## 🎮 Try the Interactive Demo!
+
+Want to experience the amazing TypeScript autocomplete in action? We've created an interactive PixiJS demo that showcases the developer experience:
+
+```bash
+# Clone and try the demo
+git clone https://github.com/lydiots/sprites.git
+cd sprites
+npm install && npm run build
+cd demo && npm install && npm run dev
+# Open http://localhost:3000
+```
+
+The demo shows:
+- **Perfect autocomplete chains**: `Characters.goblin01.sizes['32x32'].animations.Walking`
+- **Live sprite loading**: See your selections come to life with PixiJS
+- **Real code examples**: View the actual TypeScript code behind the magic
+- **Interactive exploration**: Browse all characters, sizes, and animations
+
 ## Installation
 
 ```bash
