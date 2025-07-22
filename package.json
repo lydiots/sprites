@@ -5,7 +5,9 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist/"
+    "dist/",
+    "LICENSE.md",
+    "README.md"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -27,7 +29,10 @@
     "texture",
     "character",
     "typescript",
-    "gamedev"
+    "gamedev",
+    "spritesheet",
+    "2d",
+    "graphics"
   ],
   "author": "Raymund Ács",
   "license": "MIT",
@@ -35,6 +40,12 @@
     "url": "https://github.com/lydiots/sprites/issues"
   },
   "homepage": "https://github.com/lydiots/sprites#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "typescript": "^5.8.3"
   }
