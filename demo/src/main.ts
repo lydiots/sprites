@@ -256,23 +256,46 @@ class SpritesDemo {
 
     const { characterKey, size, animation } = this.currentData;
 
-    // Construct paths to the atlas files (they are in character subdirectories)
-    const atlasPath = `../../dist/characters/${characterKey}/${characterKey}-${size}-0.json`;
-    const texturePath = `../../dist/characters/${characterKey}/${characterKey}-${size}-0.png`;
+    console.log("🔍 Character key:", characterKey);
+    console.log("🔍 Size:", size);
+    console.log("🔍 Animation:", animation);
+
+    // Get the actual character name from the Characters object (which has the correct file name)
+    const character = Characters[characterKey];
+    const actualCharacterName = character.name;
+
+    console.log("🔍 Actual character name for files:", actualCharacterName);
+
+    // Construct paths to the atlas files (now served from public directory)
+    const timestamp = Date.now(); // Cache busting
+    const atlasPath = `/sprites/characters/${actualCharacterName}/${actualCharacterName}-${size}.json?t=${timestamp}`;
+    const texturePath = `/sprites/characters/${actualCharacterName}/${actualCharacterName}-${size}-0.png?t=${timestamp}`;
+
+    console.log("🔍 Attempting to load atlas from:", atlasPath);
+    console.log("🔍 Attempting to load texture from:", texturePath);
 
     // Load the texture
+    console.log("📥 Loading texture...");
     const texture = await Assets.load(texturePath);
+    console.log("✅ Texture loaded:", texture);
 
     // Load the atlas data
+    console.log("📥 Loading atlas data...");
     const response = await fetch(atlasPath);
     if (!response.ok) {
       throw new Error(`Failed to load atlas: ${response.statusText}`);
     }
     const atlasData = await response.json();
+    console.log("✅ Atlas data loaded:", atlasData);
 
     // Create spritesheet from texture and atlas data
+    console.log("🔧 Creating spritesheet...");
     const spritesheet = new Spritesheet(texture, atlasData);
     await spritesheet.parse();
+    console.log(
+      "✅ Spritesheet parsed, available textures:",
+      Object.keys(spritesheet.textures)
+    );
 
     // Find frames that match the animation name
     const animationFrames: Texture[] = [];
@@ -281,6 +304,11 @@ class SpritesDemo {
       .replace(/\s+/g, "")
       .replace(/[^a-z0-9]/g, "");
 
+    console.log(
+      "🎯 Looking for animation frames matching:",
+      normalizedAnimation
+    );
+
     // Look for frames that match the animation pattern
     for (const frameName in spritesheet.textures) {
       const normalizedFrameName = frameName
@@ -288,15 +316,24 @@ class SpritesDemo {
         .replace(/\s+/g, "")
         .replace(/[^a-z0-9]/g, "");
       if (normalizedFrameName.includes(normalizedAnimation)) {
+        console.log("✅ Found matching frame:", frameName);
         animationFrames.push(spritesheet.textures[frameName]);
       }
     }
 
     // If no specific animation frames found, try to get any frames
     if (animationFrames.length === 0) {
+      console.log(
+        "⚠️ No specific animation frames found, using all available frames"
+      );
       const allFrames = Object.values(spritesheet.textures);
       if (allFrames.length > 0) {
         animationFrames.push(...allFrames.slice(0, 10)); // Take first 10 frames max
+        console.log(
+          "📝 Using frames:",
+          allFrames.slice(0, 10).length,
+          "frames"
+        );
       }
     }
 

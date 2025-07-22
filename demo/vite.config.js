@@ -12,7 +12,7 @@ export default defineConfig({
   build: {
     target: "es2020",
   },
-  // Serve sprite assets from parent dist folder
-  publicDir: false, // Disable default public dir
+  // Enable public directory serving for sprite assets
+  publicDir: "public", // Re-enable public dir
   assetsInclude: ["**/*.png", "**/*.json"],
 });
