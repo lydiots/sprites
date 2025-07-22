@@ -42,7 +42,7 @@ This package uses a lightweight CDN strategy to keep the npm package small (92KB
 
 - **Package**: Contains only TypeScript definitions and metadata
 - **Assets**: PNG sprites and JSON atlases are served from `https://cdn.lydiots.com/assets`
-- **CDN Repository**: [lydiots/sprites-cdn](https://github.com/lydiots/sprites-cdn)
+- **CDN Repository**: [lydiots/lydiots-cdn](https://github.com/lydiots/lydiots-cdn)
 
 All sprite URLs are automatically configured to point to the CDN, so you get the assets without bloating your `node_modules`.
 
