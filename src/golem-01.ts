@@ -3,7 +3,7 @@ export interface Golem01Atlas {
   name: 'golem-01';
   sizes: {
     '128x128': {
-      imagePath: 'golem-01-128x128-0.png';
+      imagePath: 'https://lydiots.github.io/sprites-assets/characters/golem-01/golem-01-128x128-0.png';
       frameCount: 207;
       atlasSize: { w: 1022, h: 1281 };
       animations: {
@@ -27,7 +27,7 @@ export interface Golem01Atlas {
       };
     };
     '32x32': {
-      imagePath: 'golem-01-32x32-0.png';
+      imagePath: 'https://lydiots.github.io/sprites-assets/characters/golem-01/golem-01-32x32-0.png';
       frameCount: 207;
       atlasSize: { w: 570, h: 256 };
       animations: {
@@ -51,7 +51,7 @@ export interface Golem01Atlas {
       };
     };
     '64x64': {
-      imagePath: 'golem-01-64x64-0.png';
+      imagePath: 'https://lydiots.github.io/sprites-assets/characters/golem-01/golem-01-64x64-0.png';
       frameCount: 207;
       atlasSize: { w: 1008, h: 395 };
       animations: {
@@ -84,7 +84,7 @@ export const golem01Atlas: Golem01Atlas = {
   name: 'golem-01',
   sizes: {
     '128x128': {
-      imagePath: 'golem-01-128x128-0.png',
+      imagePath: 'https://lydiots.github.io/sprites-assets/characters/golem-01/golem-01-128x128-0.png',
       frameCount: 207,
       atlasSize: { w: 1022, h: 1281 },
       animations: {
@@ -108,7 +108,7 @@ export const golem01Atlas: Golem01Atlas = {
       },
     },
     '32x32': {
-      imagePath: 'golem-01-32x32-0.png',
+      imagePath: 'https://lydiots.github.io/sprites-assets/characters/golem-01/golem-01-32x32-0.png',
       frameCount: 207,
       atlasSize: { w: 570, h: 256 },
       animations: {
@@ -132,7 +132,7 @@ export const golem01Atlas: Golem01Atlas = {
       },
     },
     '64x64': {
-      imagePath: 'golem-01-64x64-0.png',
+      imagePath: 'https://lydiots.github.io/sprites-assets/characters/golem-01/golem-01-64x64-0.png',
       frameCount: 207,
       atlasSize: { w: 1008, h: 395 },
       animations: {

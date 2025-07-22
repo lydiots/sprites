@@ -5,6 +5,12 @@ scripts/
 demo/
 tsconfig.json
 
+# Asset files (hosted on CDN)
+dist/characters/
+*.png
+*.jpg
+*.jpeg
+
 # Asset source files
 *.psd
 *.xcf

@@ -1,7 +1,7 @@
 {
   "name": "@lydiots/sprites",
   "version": "0.1.0",
-  "description": "Sprite library for Lydia's interactive games (characters, effects, animations).",
+  "description": "TypeScript-first sprite library for Lydia's interactive games with CDN-hosted assets.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -14,7 +14,8 @@
     "build": "tsc -p tsconfig.json",
     "build:atlas": "node scripts/buildAtlas.js",
     "generate:types": "node scripts/generate-types.js",
-    "prepublishOnly": "npm run build && npm run build:atlas && npm run generate:types"
+    "deploy:assets": "node scripts/deploy-assets.js",
+    "prepublishOnly": "npm run build && npm run generate:types"
   },
   "repository": {
     "type": "git",

@@ -7,6 +7,10 @@ const CONFIG = {
   srcDir: path.join(__dirname, "..", "src"),
   atlasPattern: /-\d+x\d+-0\.png$/,
   jsonPattern: /-\d+x\d+\.json$/,
+  // CDN Configuration - set CDN_BASE_URL environment variable to use CDN
+  useCDN: process.env.CDN_BASE_URL || process.env.USE_CDN === "true",
+  cdnBaseUrl:
+    process.env.CDN_BASE_URL || "https://lydiots.github.io/sprites-assets",
 };
 
 /**
@@ -87,13 +91,23 @@ function parseAtlasJson(jsonPath) {
       }
     });
 
+    // Generate the appropriate image path (local or CDN)
+    let imagePath;
+    if (CONFIG.useCDN) {
+      imagePath = `${CONFIG.cdnBaseUrl}/characters/${characterName}/${atlas.meta.image}`;
+      console.log(`🌐 Using CDN path: ${imagePath}`);
+    } else {
+      imagePath = atlas.meta.image;
+      console.log(`📁 Using local path: ${imagePath}`);
+    }
+
     return {
       characterName,
       size,
       animations: Array.from(animations).sort(),
       frameCount: frames.length,
       atlasSize: atlas.meta.size,
-      imagePath: atlas.meta.image,
+      imagePath,
     };
   } catch (error) {
     console.error(`❌ Error parsing ${jsonPath}:`, error.message);

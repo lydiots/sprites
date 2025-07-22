@@ -3,7 +3,7 @@ export interface Ogre01Atlas {
   name: 'ogre-01';
   sizes: {
     '128x128': {
-      imagePath: 'ogre-01-128x128-0.png';
+      imagePath: 'https://lydiots.github.io/sprites-assets/characters/ogre-01/ogre-01-128x128-0.png';
       frameCount: 207;
       atlasSize: { w: 2045, h: 614 };
       animations: {
@@ -27,7 +27,7 @@ export interface Ogre01Atlas {
       };
     };
     '32x32': {
-      imagePath: 'ogre-01-32x32-0.png';
+      imagePath: 'https://lydiots.github.io/sprites-assets/characters/ogre-01/ogre-01-32x32-0.png';
       frameCount: 207;
       atlasSize: { w: 511, h: 285 };
       animations: {
@@ -51,7 +51,7 @@ export interface Ogre01Atlas {
       };
     };
     '64x64': {
-      imagePath: 'ogre-01-64x64-0.png';
+      imagePath: 'https://lydiots.github.io/sprites-assets/characters/ogre-01/ogre-01-64x64-0.png';
       frameCount: 207;
       atlasSize: { w: 1018, h: 388 };
       animations: {
@@ -84,7 +84,7 @@ export const ogre01Atlas: Ogre01Atlas = {
   name: 'ogre-01',
   sizes: {
     '128x128': {
-      imagePath: 'ogre-01-128x128-0.png',
+      imagePath: 'https://lydiots.github.io/sprites-assets/characters/ogre-01/ogre-01-128x128-0.png',
       frameCount: 207,
       atlasSize: { w: 2045, h: 614 },
       animations: {
@@ -108,7 +108,7 @@ export const ogre01Atlas: Ogre01Atlas = {
       },
     },
     '32x32': {
-      imagePath: 'ogre-01-32x32-0.png',
+      imagePath: 'https://lydiots.github.io/sprites-assets/characters/ogre-01/ogre-01-32x32-0.png',
       frameCount: 207,
       atlasSize: { w: 511, h: 285 },
       animations: {
@@ -132,7 +132,7 @@ export const ogre01Atlas: Ogre01Atlas = {
       },
     },
     '64x64': {
-      imagePath: 'ogre-01-64x64-0.png',
+      imagePath: 'https://lydiots.github.io/sprites-assets/characters/ogre-01/ogre-01-64x64-0.png',
       frameCount: 207,
       atlasSize: { w: 1018, h: 388 },
       animations: {
