@@ -1,0 +1,9 @@
+raw/
+*.psd
+*.xcf
+*.aseprite
+*.atlas
+*.zip
+scripts/
+netlify.toml
+tsconfig.json

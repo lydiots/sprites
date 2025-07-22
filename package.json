@@ -1,0 +1,27 @@
+{
+  "name": "@lydiots/sprites",
+  "version": "0.1.0",
+  "description": "Sprite library for Lydia's interactive games (characters, effects, animations).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p tsconfig.json",
+    "generate:types": "node scripts/generate-types.js",
+    "prepublishOnly": "npm run build && npm run generate:types"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lydiots/sprites.git"
+  },
+  "keywords": [],
+  "author": "Raymund Ács",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lydiots/sprites/issues"
+  },
+  "homepage": "https://github.com/lydiots/sprites#readme",
+  "devDependencies": {
+    "tsc": "^2.0.4",
+    "typescript": "^5.8.3"
+  }
+}
