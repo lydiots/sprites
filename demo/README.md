@@ -1,14 +1,15 @@
 # @lydiots/sprites PixiJS Demo
 
-This interactive demo showcases the amazing **TypeScript autocomplete experience** that `@lydiots/sprites` provides when working with PixiJS.
+This interactive demo showcases the amazing **TypeScript autocomplete experience** that `@lydiots/sprites` provides when working with PixiJS, **loading sprites directly from the CDN**.
 
 ## 🚀 What This Demo Shows
 
-### Perfect IDE Autocomplete
+### Perfect IDE Autocomplete + CDN Integration
 - **Character Selection**: Type `Characters.` and see all available characters with autocomplete
-- **Size Selection**: Access `Characters.goblin01.sizes.` and get autocomplete for all available sizes
+- **Size Selection**: Access `Characters.goblin01.sizes.` and get autocomplete for all available sizes  
 - **Animation Selection**: Navigate to `Characters.goblin01.sizes['32x32'].animations.` for perfect animation autocomplete
-- **Type Safety**: Everything is fully typed - no more guessing sprite names or sizes!
+- **CDN URLs**: All sprite paths automatically point to `https://cdn.lydiots.com/assets/`
+- **Type Safety**: Everything is fully typed - no more guessing sprite names, sizes, or URLs!
 
 ### Developer Experience Features
 
@@ -74,7 +75,23 @@ characterKeys.forEach(key => {
 });
 ```
 
-## 🎯 Real-World Integration
+## � CDN Integration Demo
+
+This demo loads sprites **directly from the CDN** (`https://cdn.lydiots.com/assets/`), showcasing:
+
+```typescript
+// CDN URLs are automatically configured in the generated TypeScript!
+const goblinData = Characters.goblin01.sizes['64x64'];
+console.log(goblinData.imagePath); 
+// → "https://cdn.lydiots.com/assets/characters/goblin-01/goblin-01-64x64-0.png"
+
+// Load directly from CDN - no local files needed!
+const texture = await Assets.load(goblinData.imagePath);
+const atlasPath = goblinData.imagePath.replace('-0.png', '.json');
+const atlasData = await fetch(atlasPath).then(r => r.json());
+```
+
+## �🎯 Real-World Integration
 
 In a real project, you'd use it like this:
 
@@ -82,12 +99,12 @@ In a real project, you'd use it like this:
 import { Characters, CharacterName } from '@lydiots/sprites';
 import { Application, Assets, Spritesheet } from 'pixi.js';
 
-// Load character sprite with perfect autocomplete
+// Load character sprite with perfect autocomplete + CDN URLs
 const goblinData = Characters.goblin01.sizes['64x64'];
 
-// Load the actual sprite atlas (you'd serve these from your CDN)
-const texture = await Assets.load(goblinData.imagePath);
-const atlasData = await Assets.load(goblinData.imagePath.replace('.png', '.json'));
+// CDN URLs are built-in! No manual URL construction needed
+const texture = await Assets.load(goblinData.imagePath);  // Loads from CDN
+const atlasData = await Assets.load(goblinData.imagePath.replace('-0.png', '.json'));
 
 // Create spritesheet
 const spritesheet = new Spritesheet(texture, atlasData);
@@ -100,9 +117,11 @@ const walkingFrames = spritesheet.animations[goblinData.animations.Walking];
 ## 🎨 Why This is Amazing
 
 1. **No More String Guessing**: Never wonder what animations are available
-2. **Intellisense Everywhere**: IDE shows you exactly what's possible at each step  
-3. **Type Safety**: Catch errors at compile time, not runtime
-4. **Self-Documenting**: The types serve as documentation
-5. **Refactoring Safe**: Rename animations and TypeScript will update all usages
+2. **CDN Integration**: Sprites load from fast global CDN automatically  
+3. **Intellisense Everywhere**: IDE shows you exactly what's possible at each step  
+4. **Type Safety**: Catch errors at compile time, not runtime
+5. **Self-Documenting**: The types serve as documentation
+6. **Refactoring Safe**: Rename animations and TypeScript will update all usages
+7. **Lightweight Package**: 92KB package with 16MB+ of sprites on CDN
 
 This is the **future of game development** - where your tools guide you to success! 🚀

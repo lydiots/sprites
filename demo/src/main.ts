@@ -210,11 +210,10 @@ class SpritesDemo {
     };
 
     try {
-      // In a real app, you'd load from your CDN or asset server
-      // For demo purposes, we'll create a simple placeholder
+      // Load sprites directly from CDN using the generated TypeScript URLs!
       await this.createDemoSprite();
     } catch (error) {
-      console.error("Error loading sprite:", error);
+      console.error("Error loading sprite from CDN:", error);
       this.createPlaceholderSprite();
     }
   }
@@ -236,10 +235,13 @@ class SpritesDemo {
       this.currentSprite.y = this.app.screen.height / 2;
 
       console.log(
-        "🎉 Real sprite loaded with perfect TypeScript autocomplete!"
+        "🎉 Real sprite loaded from CDN with perfect TypeScript autocomplete!"
       );
     } catch (error) {
-      console.error("Failed to load real sprite, using placeholder:", error);
+      console.error(
+        "Failed to load sprite from CDN, using placeholder:",
+        error
+      );
       this.createPlaceholderSprite();
       return;
     }
@@ -260,33 +262,37 @@ class SpritesDemo {
     console.log("🔍 Size:", size);
     console.log("🔍 Animation:", animation);
 
-    // Get the actual character name from the Characters object (which has the correct file name)
+    // Get the character data with CDN URLs from the generated TypeScript
     const character = Characters[characterKey];
-    const actualCharacterName = character.name;
+    const sizeData = character.sizes[size];
 
-    console.log("🔍 Actual character name for files:", actualCharacterName);
+    console.log("🔍 Character name:", character.name);
+    console.log("🌐 Using CDN URLs from generated TypeScript!");
 
-    // Construct paths to the atlas files (now served from public directory)
+    // Use the CDN URLs directly from the generated TypeScript definitions
     const timestamp = Date.now(); // Cache busting
-    const atlasPath = `/sprites/characters/${actualCharacterName}/${actualCharacterName}-${size}.json?t=${timestamp}`;
-    const texturePath = `/sprites/characters/${actualCharacterName}/${actualCharacterName}-${size}-0.png?t=${timestamp}`;
+    const texturePath = `${sizeData.imagePath}?t=${timestamp}`;
+    const atlasPath = `${sizeData.imagePath.replace(
+      "-0.png",
+      ".json"
+    )}?t=${timestamp}`;
 
-    console.log("🔍 Attempting to load atlas from:", atlasPath);
-    console.log("🔍 Attempting to load texture from:", texturePath);
+    console.log("🔍 CDN atlas URL:", atlasPath);
+    console.log("🔍 CDN texture URL:", texturePath);
 
-    // Load the texture
-    console.log("📥 Loading texture...");
+    // Load the texture from CDN
+    console.log("📥 Loading texture from CDN...");
     const texture = await Assets.load(texturePath);
-    console.log("✅ Texture loaded:", texture);
+    console.log("✅ Texture loaded from CDN:", texture);
 
-    // Load the atlas data
-    console.log("📥 Loading atlas data...");
+    // Load the atlas data from CDN
+    console.log("📥 Loading atlas data from CDN...");
     const response = await fetch(atlasPath);
     if (!response.ok) {
-      throw new Error(`Failed to load atlas: ${response.statusText}`);
+      throw new Error(`Failed to load atlas from CDN: ${response.statusText}`);
     }
     const atlasData = await response.json();
-    console.log("✅ Atlas data loaded:", atlasData);
+    console.log("✅ Atlas data loaded from CDN:", atlasData);
 
     // Create spritesheet from texture and atlas data
     console.log("🔧 Creating spritesheet...");
