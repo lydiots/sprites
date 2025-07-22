@@ -25,12 +25,17 @@ npm install @lydiots/sprites
 import { 
   goblin01Atlas, 
   Goblin01Animation, 
+  Characters,
   CharacterName, 
   SpriteSize, 
   AnimationName 
 } from '@lydiots/sprites';
 
-// IDE will autocomplete all available animations
+// Use the Characters object for excellent IDE autocomplete
+const goblin = Characters.goblin01; // ✨ IDE shows all available characters!
+const animation = goblin.sizes['32x32'].animations.Walking; // ✨ Full autocomplete chain!
+
+// Or use individual character atlases
 const animation: Goblin01Animation = 'Walking'; 
 const size: SpriteSize = '32x32';
 
@@ -38,6 +43,26 @@ const size: SpriteSize = '32x32';
 const atlasData = goblin01Atlas.sizes['32x32'];
 console.log(`Atlas has ${atlasData.frameCount} frames`);
 console.log(`Image: ${atlasData.imagePath}`);
+```
+
+### Characters Object - Best Developer Experience
+
+The `Characters` object provides the best IDE autocomplete experience:
+
+```typescript
+import { Characters, getCharacter, characterNames } from '@lydiots/sprites';
+
+// IDE will show: goblin01, golem01, golem02, golem03, ogre01, orc01
+const character = Characters.goblin01;
+
+// Access character data with full autocomplete
+const characterName = character.name; // 'goblin-01'
+const imagePath = character.sizes['64x64'].imagePath;
+const animations = character.sizes['32x32'].animations; // Full autocomplete for all animations!
+
+// Helper functions
+const goblin = getCharacter('goblin01'); // Type-safe character access
+const allCharacters = characterNames; // ['goblin01', 'golem01', ...]
 ```
 
 ### Available Characters
@@ -101,9 +126,22 @@ dist/
 │   ├── golem-03/
 │   ├── ogre-01/
 │   └── orc-01/
-├── index.js             # Main JavaScript export
-├── index.d.ts           # TypeScript declarations
-└── [character].js/d.ts  # Individual character exports
+├── index.js + .d.ts      # Main exports (types, SPRITE_ATLASES)
+├── characters.js + .d.ts # Characters object with full autocomplete
+└── [character].js + .d.ts # Individual character exports
+```
+
+### Import Options
+
+```typescript
+// Option 1: Import everything (recommended for most use cases)
+import { Characters, CharacterName, AnimationName } from '@lydiots/sprites';
+
+// Option 2: Import specific character types
+import { goblin01Atlas, Goblin01Animation } from '@lydiots/sprites';
+
+// Option 3: Import just the Characters object
+import { Characters } from '@lydiots/sprites/characters';
 ```
 
 ## Development

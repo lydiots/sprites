@@ -191,12 +191,11 @@ function generateMainTypes(allCharacters) {
 
   // Import all character types
   allCharacters.forEach((char) => {
-    const pascalName = char.name
-      .split("-")
-      .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
-      .join("");
     typescript += `export * from './${char.name}';\n`;
   });
+
+  // Export Characters object from separate file
+  typescript += `export * from './characters';\n`;
 
   typescript += `\n// Union types for all characters\n`;
 
@@ -247,6 +246,80 @@ function generateMainTypes(allCharacters) {
   typescript += `  frameCount: number;\n`;
   typescript += `  atlasSize: { w: number; h: number };\n`;
   typescript += `}\n`;
+
+  return typescript;
+}
+
+/**
+ * Generate Characters object in a separate file
+ * @param {Array} allCharacters - Array of all character data
+ * @returns {string} TypeScript character definitions
+ */
+function generateCharactersFile(allCharacters) {
+  let typescript = `// Auto-generated Characters object for easy sprite access\n`;
+  typescript += `// Generated on ${new Date().toISOString()}\n\n`;
+
+  // Import individual character atlases
+  allCharacters.forEach((char) => {
+    const camelName = char.name.replace(/-(.)/g, (match, letter) =>
+      letter.toUpperCase()
+    );
+    typescript += `import type { ${char.name
+      .split("-")
+      .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+      .join("")}Atlas } from './${char.name}';\n`;
+  });
+
+  typescript += `\n// Characters object for easy access with IDE autocomplete\n`;
+  typescript += `export const Characters = {\n`;
+  allCharacters.forEach((char) => {
+    const camelName = char.name.replace(/-(.)/g, (match, letter) =>
+      letter.toUpperCase()
+    );
+    const pascalName = char.name
+      .split("-")
+      .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+      .join("");
+
+    typescript += `  ${camelName}: {\n`;
+    typescript += `    name: '${char.name}' as const,\n`;
+    typescript += `    atlas: () => import('./${char.name}').then(m => m.${camelName}Atlas),\n`;
+    typescript += `    sizes: {\n`;
+
+    Object.entries(char.sizes).forEach(([size, data]) => {
+      typescript += `      '${size}': {\n`;
+      typescript += `        imagePath: '${data.imagePath}',\n`;
+      typescript += `        frameCount: ${data.frameCount},\n`;
+      typescript += `        atlasSize: { w: ${data.atlasSize.w}, h: ${data.atlasSize.h} },\n`;
+      typescript += `        animations: {\n`;
+
+      data.animations.forEach((animation) => {
+        typescript += `          ${animation}: '${animation}' as const,\n`;
+      });
+
+      typescript += `        },\n`;
+      typescript += `      },\n`;
+    });
+
+    typescript += `    },\n`;
+    typescript += `  },\n`;
+  });
+  typescript += `} as const;\n\n`;
+
+  // Generate Characters type for even better autocomplete
+  typescript += `// Type-safe Characters with autocomplete\n`;
+  typescript += `export type CharactersType = typeof Characters;\n`;
+  typescript += `export type CharacterKey = keyof typeof Characters;\n\n`;
+
+  // Generate helper function for getting character by name
+  typescript += `// Helper function to get character data by name\n`;
+  typescript += `export function getCharacter<T extends CharacterKey>(name: T): (typeof Characters)[T] {\n`;
+  typescript += `  return Characters[name];\n`;
+  typescript += `}\n\n`;
+
+  // Generate helper function for getting all character names
+  typescript += `// Get all available character names\n`;
+  typescript += `export const characterNames = Object.keys(Characters) as CharacterKey[];\n`;
 
   return typescript;
 }
@@ -323,6 +396,12 @@ function generateTypes() {
   fs.writeFileSync(mainTypesPath, mainTypes, "utf8");
   console.log(`📄 Generated: index.ts`);
 
+  // Generate characters file
+  const charactersTypes = generateCharactersFile(allCharacters);
+  const charactersPath = path.join(CONFIG.srcDir, "characters.ts");
+  fs.writeFileSync(charactersPath, charactersTypes, "utf8");
+  console.log(`📄 Generated: characters.ts`);
+
   // Generate summary
   console.log("\n📊 Generation Summary:");
   console.log(`✅ Characters: ${allCharacters.length}`);
@@ -332,7 +411,7 @@ function generateTypes() {
       0
     )}`
   );
-  console.log(`✅ Type files created: ${allCharacters.length + 1}`);
+  console.log(`✅ Type files created: ${allCharacters.length + 2}`);
   console.log(`📁 Output directory: ${CONFIG.srcDir}`);
   console.log("\n🎉 TypeScript types generated successfully!");
   console.log(

@@ -1,5 +1,5 @@
 // Auto-generated sprite atlas types
-// Generated on 2025-07-22T16:57:33.183Z
+// Generated on 2025-07-22T17:03:25.087Z
 
 export * from './goblin-01';
 export * from './golem-01';
@@ -7,6 +7,7 @@ export * from './golem-02';
 export * from './golem-03';
 export * from './ogre-01';
 export * from './orc-01';
+export * from './characters';
 
 // Union types for all characters
 export type CharacterName = 'goblin-01' | 'golem-01' | 'golem-02' | 'golem-03' | 'ogre-01' | 'orc-01';
