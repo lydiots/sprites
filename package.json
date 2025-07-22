@@ -15,6 +15,7 @@
     "build:atlas": "node scripts/buildAtlas.js",
     "generate:types": "node scripts/generate-types.js",
     "deploy:assets": "node scripts/deploy-assets.js",
+    "setup:netlify": "node scripts/setup-netlify-cdn.js",
     "prepublishOnly": "npm run build && npm run generate:types"
   },
   "repository": {

@@ -9,8 +9,7 @@ const CONFIG = {
   jsonPattern: /-\d+x\d+\.json$/,
   // CDN Configuration - set CDN_BASE_URL environment variable to use CDN
   useCDN: process.env.CDN_BASE_URL || process.env.USE_CDN === "true",
-  cdnBaseUrl:
-    process.env.CDN_BASE_URL || "https://lydiots.github.io/sprites-assets",
+  cdnBaseUrl: process.env.CDN_BASE_URL || "https://cdn.lydiots.com",
 };
 
 /**
