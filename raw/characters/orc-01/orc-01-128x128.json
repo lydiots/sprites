@@ -1,0 +1,1687 @@
+{"frames": {
+
+"Dying/0_Orc_Dying_000.png":
+{
+	"frame": {"x":847,"y":697,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Dying/0_Orc_Dying_001.png":
+{
+	"frame": {"x":285,"y":481,"w":62,"h":92},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":33,"y":15,"w":62,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Dying/0_Orc_Dying_002.png":
+{
+	"frame": {"x":190,"y":505,"w":62,"h":92},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":36,"y":12,"w":62,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Dying/0_Orc_Dying_003.png":
+{
+	"frame": {"x":959,"y":254,"w":63,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":39,"y":9,"w":63,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Dying/0_Orc_Dying_004.png":
+{
+	"frame": {"x":481,"y":383,"w":61,"h":93},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":6,"w":61,"h":93},
+	"sourceSize": {"w":128,"h":128}
+},
+"Dying/0_Orc_Dying_005.png":
+{
+	"frame": {"x":836,"y":1233,"w":67,"h":87},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":10,"w":67,"h":87},
+	"sourceSize": {"w":128,"h":128}
+},
+"Dying/0_Orc_Dying_006.png":
+{
+	"frame": {"x":943,"y":628,"w":79,"h":75},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":19,"w":79,"h":75},
+	"sourceSize": {"w":128,"h":128}
+},
+"Dying/0_Orc_Dying_007.png":
+{
+	"frame": {"x":936,"y":935,"w":86,"h":71},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":29,"w":86,"h":71},
+	"sourceSize": {"w":128,"h":128}
+},
+"Dying/0_Orc_Dying_008.png":
+{
+	"frame": {"x":956,"y":536,"w":90,"h":66},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":40,"w":90,"h":66},
+	"sourceSize": {"w":128,"h":128}
+},
+"Dying/0_Orc_Dying_009.png":
+{
+	"frame": {"x":379,"y":411,"w":92,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":52,"w":92,"h":64},
+	"sourceSize": {"w":128,"h":128}
+},
+"Dying/0_Orc_Dying_010.png":
+{
+	"frame": {"x":94,"y":756,"w":91,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":57,"w":91,"h":63},
+	"sourceSize": {"w":128,"h":128}
+},
+"Dying/0_Orc_Dying_011.png":
+{
+	"frame": {"x":376,"y":732,"w":91,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":60,"w":91,"h":62},
+	"sourceSize": {"w":128,"h":128}
+},
+"Dying/0_Orc_Dying_012.png":
+{
+	"frame": {"x":282,"y":764,"w":91,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":60,"w":91,"h":62},
+	"sourceSize": {"w":128,"h":128}
+},
+"Dying/0_Orc_Dying_013.png":
+{
+	"frame": {"x":187,"y":766,"w":91,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":60,"w":91,"h":62},
+	"sourceSize": {"w":128,"h":128}
+},
+"Dying/0_Orc_Dying_014.png":
+{
+	"frame": {"x":94,"y":821,"w":91,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":60,"w":91,"h":62},
+	"sourceSize": {"w":128,"h":128}
+},
+"Falling Down/0_Orc_Falling Down_000.png":
+{
+	"frame": {"x":579,"y":226,"w":65,"h":93},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":11,"w":65,"h":93},
+	"sourceSize": {"w":128,"h":128}
+},
+"Falling Down/0_Orc_Falling Down_001.png":
+{
+	"frame": {"x":99,"y":187,"w":65,"h":95},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":10,"w":65,"h":95},
+	"sourceSize": {"w":128,"h":128}
+},
+"Falling Down/0_Orc_Falling Down_002.png":
+{
+	"frame": {"x":1,"y":188,"w":65,"h":95},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":33,"y":10,"w":65,"h":95},
+	"sourceSize": {"w":128,"h":128}
+},
+"Falling Down/0_Orc_Falling Down_003.png":
+{
+	"frame": {"x":492,"y":1,"w":65,"h":95},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":33,"y":10,"w":65,"h":95},
+	"sourceSize": {"w":128,"h":128}
+},
+"Falling Down/0_Orc_Falling Down_004.png":
+{
+	"frame": {"x":589,"y":1,"w":65,"h":95},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":33,"y":10,"w":65,"h":95},
+	"sourceSize": {"w":128,"h":128}
+},
+"Falling Down/0_Orc_Falling Down_005.png":
+{
+	"frame": {"x":686,"y":1,"w":65,"h":95},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":10,"w":65,"h":95},
+	"sourceSize": {"w":128,"h":128}
+},
+"Hurt/0_Orc_Hurt_000.png":
+{
+	"frame": {"x":754,"y":734,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Hurt/0_Orc_Hurt_001.png":
+{
+	"frame": {"x":959,"y":348,"w":63,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":18,"w":63,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Hurt/0_Orc_Hurt_002.png":
+{
+	"frame": {"x":674,"y":226,"w":62,"h":93},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":17,"w":62,"h":93},
+	"sourceSize": {"w":128,"h":128}
+},
+"Hurt/0_Orc_Hurt_003.png":
+{
+	"frame": {"x":1,"y":630,"w":61,"h":92},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":18,"w":61,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Hurt/0_Orc_Hurt_004.png":
+{
+	"frame": {"x":933,"y":1074,"w":67,"h":89},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":21,"w":67,"h":89},
+	"sourceSize": {"w":128,"h":128}
+},
+"Hurt/0_Orc_Hurt_005.png":
+{
+	"frame": {"x":618,"y":1277,"w":71,"h":86},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":24,"w":71,"h":86},
+	"sourceSize": {"w":128,"h":128}
+},
+"Hurt/0_Orc_Hurt_006.png":
+{
+	"frame": {"x":925,"y":1277,"w":70,"h":86},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":24,"w":70,"h":86},
+	"sourceSize": {"w":128,"h":128}
+},
+"Hurt/0_Orc_Hurt_007.png":
+{
+	"frame": {"x":742,"y":1267,"w":67,"h":87},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":23,"w":67,"h":87},
+	"sourceSize": {"w":128,"h":128}
+},
+"Hurt/0_Orc_Hurt_008.png":
+{
+	"frame": {"x":934,"y":1008,"w":64,"h":88},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":22,"y":22,"w":64,"h":88},
+	"sourceSize": {"w":128,"h":128}
+},
+"Hurt/0_Orc_Hurt_009.png":
+{
+	"frame": {"x":1,"y":1200,"w":61,"h":89},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":24,"y":21,"w":61,"h":89},
+	"sourceSize": {"w":128,"h":128}
+},
+"Hurt/0_Orc_Hurt_010.png":
+{
+	"frame": {"x":1,"y":1291,"w":60,"h":90},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":26,"y":20,"w":60,"h":90},
+	"sourceSize": {"w":128,"h":128}
+},
+"Hurt/0_Orc_Hurt_011.png":
+{
+	"frame": {"x":559,"y":991,"w":60,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":19,"w":60,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Idle Blinking/0_Orc_Idle Blinking_000.png":
+{
+	"frame": {"x":659,"y":735,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Idle Blinking/0_Orc_Idle Blinking_001.png":
+{
+	"frame": {"x":564,"y":739,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Idle Blinking/0_Orc_Idle Blinking_002.png":
+{
+	"frame": {"x":469,"y":766,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Idle Blinking/0_Orc_Idle Blinking_003.png":
+{
+	"frame": {"x":375,"y":796,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Idle Blinking/0_Orc_Idle Blinking_004.png":
+{
+	"frame": {"x":1,"y":822,"w":62,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":19,"w":62,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Idle Blinking/0_Orc_Idle Blinking_005.png":
+{
+	"frame": {"x":280,"y":828,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Idle Blinking/0_Orc_Idle Blinking_006.png":
+{
+	"frame": {"x":187,"y":830,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Idle Blinking/0_Orc_Idle Blinking_007.png":
+{
+	"frame": {"x":94,"y":885,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Idle Blinking/0_Orc_Idle Blinking_008.png":
+{
+	"frame": {"x":1,"y":886,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Idle Blinking/0_Orc_Idle Blinking_009.png":
+{
+	"frame": {"x":847,"y":760,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Idle Blinking/0_Orc_Idle Blinking_010.png":
+{
+	"frame": {"x":752,"y":797,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Idle Blinking/0_Orc_Idle Blinking_011.png":
+{
+	"frame": {"x":657,"y":798,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Idle Blinking/0_Orc_Idle Blinking_012.png":
+{
+	"frame": {"x":562,"y":802,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Idle Blinking/0_Orc_Idle Blinking_013.png":
+{
+	"frame": {"x":468,"y":829,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Idle Blinking/0_Orc_Idle Blinking_014.png":
+{
+	"frame": {"x":466,"y":1018,"w":60,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":19,"w":60,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Idle Blinking/0_Orc_Idle Blinking_015.png":
+{
+	"frame": {"x":373,"y":859,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Idle Blinking/0_Orc_Idle Blinking_016.png":
+{
+	"frame": {"x":280,"y":891,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Idle Blinking/0_Orc_Idle Blinking_017.png":
+{
+	"frame": {"x":187,"y":893,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Idle/0_Orc_Idle_000.png":
+{
+	"frame": {"x":94,"y":948,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Idle/0_Orc_Idle_001.png":
+{
+	"frame": {"x":1,"y":949,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Idle/0_Orc_Idle_002.png":
+{
+	"frame": {"x":845,"y":823,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Idle/0_Orc_Idle_003.png":
+{
+	"frame": {"x":750,"y":860,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Idle/0_Orc_Idle_004.png":
+{
+	"frame": {"x":754,"y":670,"w":62,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":19,"w":62,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Idle/0_Orc_Idle_005.png":
+{
+	"frame": {"x":655,"y":861,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Idle/0_Orc_Idle_006.png":
+{
+	"frame": {"x":561,"y":865,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Idle/0_Orc_Idle_007.png":
+{
+	"frame": {"x":466,"y":892,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Idle/0_Orc_Idle_008.png":
+{
+	"frame": {"x":373,"y":922,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Idle/0_Orc_Idle_009.png":
+{
+	"frame": {"x":280,"y":954,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Idle/0_Orc_Idle_010.png":
+{
+	"frame": {"x":187,"y":956,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Idle/0_Orc_Idle_011.png":
+{
+	"frame": {"x":94,"y":1011,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Idle/0_Orc_Idle_012.png":
+{
+	"frame": {"x":1,"y":1012,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Idle/0_Orc_Idle_013.png":
+{
+	"frame": {"x":843,"y":886,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Idle/0_Orc_Idle_014.png":
+{
+	"frame": {"x":373,"y":1048,"w":60,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":19,"w":60,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Idle/0_Orc_Idle_015.png":
+{
+	"frame": {"x":748,"y":923,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Idle/0_Orc_Idle_016.png":
+{
+	"frame": {"x":654,"y":924,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Idle/0_Orc_Idle_017.png":
+{
+	"frame": {"x":841,"y":949,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Jump Loop/0_Orc_Jump Loop_000.png":
+{
+	"frame": {"x":429,"y":1259,"w":61,"h":90},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":24,"y":15,"w":61,"h":90},
+	"sourceSize": {"w":128,"h":128}
+},
+"Jump Loop/0_Orc_Jump Loop_001.png":
+{
+	"frame": {"x":492,"y":1259,"w":61,"h":90},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":24,"y":15,"w":61,"h":90},
+	"sourceSize": {"w":128,"h":128}
+},
+"Jump Loop/0_Orc_Jump Loop_002.png":
+{
+	"frame": {"x":280,"y":1080,"w":60,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":14,"w":60,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Jump Loop/0_Orc_Jump Loop_003.png":
+{
+	"frame": {"x":187,"y":1082,"w":60,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":14,"w":60,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Jump Loop/0_Orc_Jump Loop_004.png":
+{
+	"frame": {"x":94,"y":1137,"w":60,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":14,"w":60,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Jump Loop/0_Orc_Jump Loop_005.png":
+{
+	"frame": {"x":555,"y":1259,"w":61,"h":90},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":24,"y":15,"w":61,"h":90},
+	"sourceSize": {"w":128,"h":128}
+},
+"Jump Start/0_Orc_Jump Start_000.png":
+{
+	"frame": {"x":747,"y":986,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Jump Start/0_Orc_Jump Start_001.png":
+{
+	"frame": {"x":840,"y":1012,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":18,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Jump Start/0_Orc_Jump Start_002.png":
+{
+	"frame": {"x":93,"y":1291,"w":60,"h":90},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":18,"w":60,"h":90},
+	"sourceSize": {"w":128,"h":128}
+},
+"Jump Start/0_Orc_Jump Start_003.png":
+{
+	"frame": {"x":1,"y":1138,"w":60,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":17,"w":60,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Jump Start/0_Orc_Jump Start_004.png":
+{
+	"frame": {"x":745,"y":1049,"w":60,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":26,"y":16,"w":60,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Jump Start/0_Orc_Jump Start_005.png":
+{
+	"frame": {"x":652,"y":1050,"w":60,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":15,"w":60,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Kicking/0_Orc_Kicking_000.png":
+{
+	"frame": {"x":559,"y":928,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Kicking/0_Orc_Kicking_001.png":
+{
+	"frame": {"x":661,"y":544,"w":61,"h":92},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":18,"w":61,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Kicking/0_Orc_Kicking_002.png":
+{
+	"frame": {"x":672,"y":418,"w":61,"h":93},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":17,"w":61,"h":93},
+	"sourceSize": {"w":128,"h":128}
+},
+"Kicking/0_Orc_Kicking_003.png":
+{
+	"frame": {"x":576,"y":421,"w":61,"h":93},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":17,"w":61,"h":93},
+	"sourceSize": {"w":128,"h":128}
+},
+"Kicking/0_Orc_Kicking_004.png":
+{
+	"frame": {"x":292,"y":189,"w":61,"h":94},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":26,"y":16,"w":61,"h":94},
+	"sourceSize": {"w":128,"h":128}
+},
+"Kicking/0_Orc_Kicking_005.png":
+{
+	"frame": {"x":780,"y":97,"w":63,"h":94},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":16,"w":63,"h":94},
+	"sourceSize": {"w":128,"h":128}
+},
+"Kicking/0_Orc_Kicking_006.png":
+{
+	"frame": {"x":780,"y":162,"w":62,"h":94},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":26,"y":16,"w":62,"h":94},
+	"sourceSize": {"w":128,"h":128}
+},
+"Kicking/0_Orc_Kicking_007.png":
+{
+	"frame": {"x":684,"y":161,"w":63,"h":94},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":16,"w":63,"h":94},
+	"sourceSize": {"w":128,"h":128}
+},
+"Kicking/0_Orc_Kicking_008.png":
+{
+	"frame": {"x":876,"y":190,"w":62,"h":94},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":26,"y":16,"w":62,"h":94},
+	"sourceSize": {"w":128,"h":128}
+},
+"Kicking/0_Orc_Kicking_009.png":
+{
+	"frame": {"x":490,"y":162,"w":62,"h":94},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":26,"y":16,"w":62,"h":94},
+	"sourceSize": {"w":128,"h":128}
+},
+"Kicking/0_Orc_Kicking_010.png":
+{
+	"frame": {"x":767,"y":418,"w":61,"h":93},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":17,"w":61,"h":93},
+	"sourceSize": {"w":128,"h":128}
+},
+"Kicking/0_Orc_Kicking_011.png":
+{
+	"frame": {"x":567,"y":548,"w":61,"h":92},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":18,"w":61,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Run Slashing/0_Orc_Run Slashing_000.png":
+{
+	"frame": {"x":661,"y":670,"w":63,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":19,"w":63,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Run Slashing/0_Orc_Run Slashing_001.png":
+{
+	"frame": {"x":285,"y":411,"w":68,"h":92},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":24,"y":17,"w":68,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Run Slashing/0_Orc_Run Slashing_002.png":
+{
+	"frame": {"x":879,"y":96,"w":94,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":16,"w":94,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Run Slashing/0_Orc_Run Slashing_003.png":
+{
+	"frame": {"x":1,"y":95,"w":96,"h":91},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":16,"w":96,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Run Slashing/0_Orc_Run Slashing_004.png":
+{
+	"frame": {"x":100,"y":1,"w":97,"h":90},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":18,"w":97,"h":90},
+	"sourceSize": {"w":128,"h":128}
+},
+"Run Slashing/0_Orc_Run Slashing_005.png":
+{
+	"frame": {"x":198,"y":96,"w":95,"h":91},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":18,"w":95,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Run Slashing/0_Orc_Run Slashing_006.png":
+{
+	"frame": {"x":484,"y":226,"w":93,"h":91},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":19,"w":93,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Run Slashing/0_Orc_Run Slashing_007.png":
+{
+	"frame": {"x":292,"y":252,"w":93,"h":93},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":17,"w":93,"h":93},
+	"sourceSize": {"w":128,"h":128}
+},
+"Run Slashing/0_Orc_Run Slashing_008.png":
+{
+	"frame": {"x":297,"y":94,"w":95,"h":93},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":16,"w":95,"h":93},
+	"sourceSize": {"w":128,"h":128}
+},
+"Run Slashing/0_Orc_Run Slashing_009.png":
+{
+	"frame": {"x":1,"y":1,"w":97,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":16,"w":97,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Run Slashing/0_Orc_Run Slashing_010.png":
+{
+	"frame": {"x":297,"y":1,"w":96,"h":91},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":18,"w":96,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Run Slashing/0_Orc_Run Slashing_011.png":
+{
+	"frame": {"x":98,"y":254,"w":93,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":18,"w":93,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Run Throwing/0_Orc_Run Throwing_000.png":
+{
+	"frame": {"x":466,"y":955,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Run Throwing/0_Orc_Run Throwing_001.png":
+{
+	"frame": {"x":95,"y":565,"w":62,"h":92},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":17,"w":62,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Run Throwing/0_Orc_Run Throwing_002.png":
+{
+	"frame": {"x":1,"y":566,"w":62,"h":92},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":16,"w":62,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Run Throwing/0_Orc_Run Throwing_003.png":
+{
+	"frame": {"x":1,"y":756,"w":64,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":16,"w":64,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Run Throwing/0_Orc_Run Throwing_004.png":
+{
+	"frame": {"x":744,"y":1203,"w":62,"h":90},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":18,"w":62,"h":90},
+	"sourceSize": {"w":128,"h":128}
+},
+"Run Throwing/0_Orc_Run Throwing_005.png":
+{
+	"frame": {"x":559,"y":1053,"w":60,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":18,"w":60,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Run Throwing/0_Orc_Run Throwing_006.png":
+{
+	"frame": {"x":373,"y":985,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Run Throwing/0_Orc_Run Throwing_007.png":
+{
+	"frame": {"x":769,"y":226,"w":62,"h":93},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":17,"w":62,"h":93},
+	"sourceSize": {"w":128,"h":128}
+},
+"Run Throwing/0_Orc_Run Throwing_008.png":
+{
+	"frame": {"x":862,"y":446,"w":61,"h":93},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":16,"w":61,"h":93},
+	"sourceSize": {"w":128,"h":128}
+},
+"Run Throwing/0_Orc_Run Throwing_009.png":
+{
+	"frame": {"x":473,"y":576,"w":61,"h":92},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":16,"w":61,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Run Throwing/0_Orc_Run Throwing_010.png":
+{
+	"frame": {"x":466,"y":1080,"w":60,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":18,"w":60,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Run Throwing/0_Orc_Run Throwing_011.png":
+{
+	"frame": {"x":849,"y":635,"w":60,"h":92},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":18,"w":60,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Running/0_Orc_Running_000.png":
+{
+	"frame": {"x":280,"y":1017,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Running/0_Orc_Running_001.png":
+{
+	"frame": {"x":567,"y":484,"w":62,"h":92},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":17,"w":62,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Running/0_Orc_Running_002.png":
+{
+	"frame": {"x":378,"y":607,"w":61,"h":92},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":16,"w":61,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Running/0_Orc_Running_003.png":
+{
+	"frame": {"x":373,"y":1110,"w":60,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":16,"w":60,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Running/0_Orc_Running_004.png":
+{
+	"frame": {"x":185,"y":1291,"w":60,"h":90},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":18,"w":60,"h":90},
+	"sourceSize": {"w":128,"h":128}
+},
+"Running/0_Orc_Running_005.png":
+{
+	"frame": {"x":280,"y":1142,"w":60,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":18,"w":60,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Running/0_Orc_Running_006.png":
+{
+	"frame": {"x":187,"y":1019,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Running/0_Orc_Running_007.png":
+{
+	"frame": {"x":864,"y":254,"w":62,"h":93},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":17,"w":62,"h":93},
+	"sourceSize": {"w":128,"h":128}
+},
+"Running/0_Orc_Running_008.png":
+{
+	"frame": {"x":671,"y":481,"w":61,"h":93},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":16,"w":61,"h":93},
+	"sourceSize": {"w":128,"h":128}
+},
+"Running/0_Orc_Running_009.png":
+{
+	"frame": {"x":473,"y":512,"w":62,"h":92},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":16,"w":62,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Running/0_Orc_Running_010.png":
+{
+	"frame": {"x":187,"y":1144,"w":60,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":18,"w":60,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Running/0_Orc_Running_011.png":
+{
+	"frame": {"x":472,"y":639,"w":60,"h":92},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":18,"w":60,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Slashing in The Air/0_Orc_Slashing in The Air_000.png":
+{
+	"frame": {"x":837,"y":1167,"w":64,"h":90},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":24,"y":15,"w":64,"h":90},
+	"sourceSize": {"w":128,"h":128}
+},
+"Slashing in The Air/0_Orc_Slashing in The Air_001.png":
+{
+	"frame": {"x":277,"y":1291,"w":60,"h":90},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":15,"w":60,"h":90},
+	"sourceSize": {"w":128,"h":128}
+},
+"Slashing in The Air/0_Orc_Slashing in The Air_002.png":
+{
+	"frame": {"x":492,"y":68,"w":94,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":13,"w":94,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Slashing in The Air/0_Orc_Slashing in The Air_003.png":
+{
+	"frame": {"x":191,"y":411,"w":92,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":12,"w":92,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Slashing in The Air/0_Orc_Slashing in The Air_004.png":
+{
+	"frame": {"x":1,"y":255,"w":92,"h":93},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":32,"y":11,"w":92,"h":93},
+	"sourceSize": {"w":128,"h":128}
+},
+"Slashing in The Air/0_Orc_Slashing in The Air_005.png":
+{
+	"frame": {"x":196,"y":253,"w":93,"h":93},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":11,"w":93,"h":93},
+	"sourceSize": {"w":128,"h":128}
+},
+"Slashing in The Air/0_Orc_Slashing in The Air_006.png":
+{
+	"frame": {"x":879,"y":1,"w":93,"h":94},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":11,"w":93,"h":94},
+	"sourceSize": {"w":128,"h":128}
+},
+"Slashing in The Air/0_Orc_Slashing in The Air_007.png":
+{
+	"frame": {"x":783,"y":1,"w":94,"h":94},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":11,"w":94,"h":94},
+	"sourceSize": {"w":128,"h":128}
+},
+"Slashing in The Air/0_Orc_Slashing in The Air_008.png":
+{
+	"frame": {"x":395,"y":1,"w":95,"h":94},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":11,"w":95,"h":94},
+	"sourceSize": {"w":128,"h":128}
+},
+"Slashing in The Air/0_Orc_Slashing in The Air_009.png":
+{
+	"frame": {"x":199,"y":1,"w":96,"h":93},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":12,"w":96,"h":93},
+	"sourceSize": {"w":128,"h":128}
+},
+"Slashing in The Air/0_Orc_Slashing in The Air_010.png":
+{
+	"frame": {"x":100,"y":93,"w":96,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":13,"w":96,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Slashing in The Air/0_Orc_Slashing in The Air_011.png":
+{
+	"frame": {"x":684,"y":68,"w":94,"h":91},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":14,"w":94,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Slashing/0_Orc_Slashing_000.png":
+{
+	"frame": {"x":566,"y":674,"w":63,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":19,"w":63,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Slashing/0_Orc_Slashing_001.png":
+{
+	"frame": {"x":94,"y":1074,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Slashing/0_Orc_Slashing_002.png":
+{
+	"frame": {"x":394,"y":97,"w":94,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":32,"y":18,"w":94,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Slashing/0_Orc_Slashing_003.png":
+{
+	"frame": {"x":96,"y":474,"w":89,"h":92},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":37,"y":18,"w":89,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Slashing/0_Orc_Slashing_004.png":
+{
+	"frame": {"x":94,"y":1199,"w":90,"h":90},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":37,"y":20,"w":90,"h":90},
+	"sourceSize": {"w":128,"h":128}
+},
+"Slashing/0_Orc_Slashing_005.png":
+{
+	"frame": {"x":838,"y":1075,"w":90,"h":90},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":37,"y":20,"w":90,"h":90},
+	"sourceSize": {"w":128,"h":128}
+},
+"Slashing/0_Orc_Slashing_006.png":
+{
+	"frame": {"x":745,"y":1111,"w":90,"h":90},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":37,"y":20,"w":90,"h":90},
+	"sourceSize": {"w":128,"h":128}
+},
+"Slashing/0_Orc_Slashing_007.png":
+{
+	"frame": {"x":652,"y":1112,"w":90,"h":90},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":37,"y":20,"w":90,"h":90},
+	"sourceSize": {"w":128,"h":128}
+},
+"Slashing/0_Orc_Slashing_008.png":
+{
+	"frame": {"x":283,"y":672,"w":90,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":37,"y":19,"w":90,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Slashing/0_Orc_Slashing_009.png":
+{
+	"frame": {"x":1,"y":475,"w":89,"h":92},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":37,"y":18,"w":89,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Slashing/0_Orc_Slashing_010.png":
+{
+	"frame": {"x":387,"y":254,"w":91,"h":93},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":17,"w":91,"h":93},
+	"sourceSize": {"w":128,"h":128}
+},
+"Slashing/0_Orc_Slashing_011.png":
+{
+	"frame": {"x":588,"y":68,"w":94,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":18,"w":94,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Sliding/0_Orc_Sliding_000.png":
+{
+	"frame": {"x":940,"y":781,"w":79,"h":75},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":42,"w":79,"h":75},
+	"sourceSize": {"w":128,"h":128}
+},
+"Sliding/0_Orc_Sliding_001.png":
+{
+	"frame": {"x":938,"y":858,"w":79,"h":75},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":42,"w":79,"h":75},
+	"sourceSize": {"w":128,"h":128}
+},
+"Sliding/0_Orc_Sliding_002.png":
+{
+	"frame": {"x":186,"y":1214,"w":79,"h":75},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":42,"w":79,"h":75},
+	"sourceSize": {"w":128,"h":128}
+},
+"Sliding/0_Orc_Sliding_003.png":
+{
+	"frame": {"x":940,"y":705,"w":80,"h":74},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":43,"w":80,"h":74},
+	"sourceSize": {"w":128,"h":128}
+},
+"Sliding/0_Orc_Sliding_004.png":
+{
+	"frame": {"x":267,"y":1214,"w":79,"h":75},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":42,"w":79,"h":75},
+	"sourceSize": {"w":128,"h":128}
+},
+"Sliding/0_Orc_Sliding_005.png":
+{
+	"frame": {"x":348,"y":1214,"w":79,"h":75},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":42,"w":79,"h":75},
+	"sourceSize": {"w":128,"h":128}
+},
+"Throwing in The Air/0_Orc_Throwing in The Air_000.png":
+{
+	"frame": {"x":929,"y":1214,"w":61,"h":90},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":24,"y":15,"w":61,"h":90},
+	"sourceSize": {"w":128,"h":128}
+},
+"Throwing in The Air/0_Orc_Throwing in The Air_001.png":
+{
+	"frame": {"x":650,"y":1204,"w":62,"h":90},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":15,"w":62,"h":90},
+	"sourceSize": {"w":128,"h":128}
+},
+"Throwing in The Air/0_Orc_Throwing in The Air_002.png":
+{
+	"frame": {"x":959,"y":442,"w":63,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":13,"w":63,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Throwing in The Air/0_Orc_Throwing in The Air_003.png":
+{
+	"frame": {"x":283,"y":609,"w":61,"h":92},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":12,"w":61,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Throwing in The Air/0_Orc_Throwing in The Air_004.png":
+{
+	"frame": {"x":674,"y":290,"w":62,"h":93},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":32,"y":11,"w":62,"h":93},
+	"sourceSize": {"w":128,"h":128}
+},
+"Throwing in The Air/0_Orc_Throwing in The Air_005.png":
+{
+	"frame": {"x":579,"y":293,"w":62,"h":93},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":11,"w":62,"h":93},
+	"sourceSize": {"w":128,"h":128}
+},
+"Throwing in The Air/0_Orc_Throwing in The Air_006.png":
+{
+	"frame": {"x":388,"y":191,"w":61,"h":94},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":11,"w":61,"h":94},
+	"sourceSize": {"w":128,"h":128}
+},
+"Throwing in The Air/0_Orc_Throwing in The Air_007.png":
+{
+	"frame": {"x":586,"y":162,"w":62,"h":94},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":11,"w":62,"h":94},
+	"sourceSize": {"w":128,"h":128}
+},
+"Throwing in The Air/0_Orc_Throwing in The Air_008.png":
+{
+	"frame": {"x":196,"y":189,"w":62,"h":94},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":11,"w":62,"h":94},
+	"sourceSize": {"w":128,"h":128}
+},
+"Throwing in The Air/0_Orc_Throwing in The Air_009.png":
+{
+	"frame": {"x":766,"y":481,"w":61,"h":93},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":12,"w":61,"h":93},
+	"sourceSize": {"w":128,"h":128}
+},
+"Throwing in The Air/0_Orc_Throwing in The Air_010.png":
+{
+	"frame": {"x":377,"y":670,"w":60,"h":92},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":13,"w":60,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Throwing in The Air/0_Orc_Throwing in The Air_011.png":
+{
+	"frame": {"x":1,"y":1075,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":14,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Throwing/0_Orc_Throwing_000.png":
+{
+	"frame": {"x":471,"y":701,"w":63,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":19,"w":63,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Throwing/0_Orc_Throwing_001.png":
+{
+	"frame": {"x":652,"y":987,"w":61,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":19,"w":61,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Throwing/0_Orc_Throwing_002.png":
+{
+	"frame": {"x":189,"y":633,"w":61,"h":92},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":32,"y":18,"w":61,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Throwing/0_Orc_Throwing_003.png":
+{
+	"frame": {"x":473,"y":446,"w":64,"h":92},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":37,"y":18,"w":64,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Throwing/0_Orc_Throwing_004.png":
+{
+	"frame": {"x":559,"y":1115,"w":70,"h":90},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":37,"y":20,"w":70,"h":90},
+	"sourceSize": {"w":128,"h":128}
+},
+"Throwing/0_Orc_Throwing_005.png":
+{
+	"frame": {"x":466,"y":1142,"w":70,"h":90},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":37,"y":20,"w":70,"h":90},
+	"sourceSize": {"w":128,"h":128}
+},
+"Throwing/0_Orc_Throwing_006.png":
+{
+	"frame": {"x":558,"y":1187,"w":70,"h":90},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":37,"y":20,"w":70,"h":90},
+	"sourceSize": {"w":128,"h":128}
+},
+"Throwing/0_Orc_Throwing_007.png":
+{
+	"frame": {"x":930,"y":1143,"w":69,"h":90},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":37,"y":20,"w":69,"h":90},
+	"sourceSize": {"w":128,"h":128}
+},
+"Throwing/0_Orc_Throwing_008.png":
+{
+	"frame": {"x":189,"y":696,"w":68,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":37,"y":19,"w":68,"h":91},
+	"sourceSize": {"w":128,"h":128}
+},
+"Throwing/0_Orc_Throwing_009.png":
+{
+	"frame": {"x":379,"y":477,"w":64,"h":92},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":37,"y":18,"w":64,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Throwing/0_Orc_Throwing_010.png":
+{
+	"frame": {"x":769,"y":290,"w":62,"h":93},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":17,"w":62,"h":93},
+	"sourceSize": {"w":128,"h":128}
+},
+"Throwing/0_Orc_Throwing_011.png":
+{
+	"frame": {"x":379,"y":543,"w":62,"h":92},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":18,"w":62,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Walking/0_Orc_Walking_000.png":
+{
+	"frame": {"x":284,"y":545,"w":62,"h":92},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":32,"y":19,"w":62,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Walking/0_Orc_Walking_001.png":
+{
+	"frame": {"x":189,"y":569,"w":62,"h":92},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":32,"y":18,"w":62,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Walking/0_Orc_Walking_002.png":
+{
+	"frame": {"x":864,"y":318,"w":62,"h":93},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":32,"y":18,"w":62,"h":93},
+	"sourceSize": {"w":128,"h":128}
+},
+"Walking/0_Orc_Walking_003.png":
+{
+	"frame": {"x":482,"y":319,"w":62,"h":93},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":18,"w":62,"h":93},
+	"sourceSize": {"w":128,"h":128}
+},
+"Walking/0_Orc_Walking_004.png":
+{
+	"frame": {"x":755,"y":544,"w":61,"h":92},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":18,"w":61,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Walking/0_Orc_Walking_005.png":
+{
+	"frame": {"x":849,"y":572,"w":61,"h":92},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":18,"w":61,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Walking/0_Orc_Walking_006.png":
+{
+	"frame": {"x":1,"y":693,"w":61,"h":92},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":18,"w":61,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Walking/0_Orc_Walking_007.png":
+{
+	"frame": {"x":95,"y":693,"w":61,"h":92},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":18,"w":61,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Walking/0_Orc_Walking_008.png":
+{
+	"frame": {"x":661,"y":607,"w":61,"h":92},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":18,"w":61,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Walking/0_Orc_Walking_009.png":
+{
+	"frame": {"x":861,"y":509,"w":61,"h":93},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":18,"w":61,"h":93},
+	"sourceSize": {"w":128,"h":128}
+},
+"Walking/0_Orc_Walking_010.png":
+{
+	"frame": {"x":96,"y":348,"w":61,"h":93},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":18,"w":61,"h":93},
+	"sourceSize": {"w":128,"h":128}
+},
+"Walking/0_Orc_Walking_011.png":
+{
+	"frame": {"x":674,"y":354,"w":62,"h":93},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":18,"w":62,"h":93},
+	"sourceSize": {"w":128,"h":128}
+},
+"Walking/0_Orc_Walking_012.png":
+{
+	"frame": {"x":769,"y":354,"w":62,"h":93},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":32,"y":18,"w":62,"h":93},
+	"sourceSize": {"w":128,"h":128}
+},
+"Walking/0_Orc_Walking_013.png":
+{
+	"frame": {"x":864,"y":382,"w":62,"h":93},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":32,"y":18,"w":62,"h":93},
+	"sourceSize": {"w":128,"h":128}
+},
+"Walking/0_Orc_Walking_014.png":
+{
+	"frame": {"x":577,"y":357,"w":62,"h":93},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":32,"y":18,"w":62,"h":93},
+	"sourceSize": {"w":128,"h":128}
+},
+"Walking/0_Orc_Walking_015.png":
+{
+	"frame": {"x":291,"y":347,"w":62,"h":93},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":18,"w":62,"h":93},
+	"sourceSize": {"w":128,"h":128}
+},
+"Walking/0_Orc_Walking_016.png":
+{
+	"frame": {"x":1,"y":349,"w":61,"h":93},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":18,"w":61,"h":93},
+	"sourceSize": {"w":128,"h":128}
+},
+"Walking/0_Orc_Walking_017.png":
+{
+	"frame": {"x":567,"y":611,"w":61,"h":92},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":18,"w":61,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Walking/0_Orc_Walking_018.png":
+{
+	"frame": {"x":191,"y":348,"w":61,"h":93},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":18,"w":61,"h":93},
+	"sourceSize": {"w":128,"h":128}
+},
+"Walking/0_Orc_Walking_019.png":
+{
+	"frame": {"x":755,"y":607,"w":61,"h":92},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":18,"w":61,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Walking/0_Orc_Walking_020.png":
+{
+	"frame": {"x":95,"y":629,"w":62,"h":92},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":18,"w":62,"h":92},
+	"sourceSize": {"w":128,"h":128}
+},
+"Walking/0_Orc_Walking_021.png":
+{
+	"frame": {"x":96,"y":411,"w":61,"h":93},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":18,"w":61,"h":93},
+	"sourceSize": {"w":128,"h":128}
+},
+"Walking/0_Orc_Walking_022.png":
+{
+	"frame": {"x":1,"y":412,"w":61,"h":93},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":18,"w":61,"h":93},
+	"sourceSize": {"w":128,"h":128}
+},
+"Walking/0_Orc_Walking_023.png":
+{
+	"frame": {"x":386,"y":347,"w":62,"h":93},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":18,"w":62,"h":93},
+	"sourceSize": {"w":128,"h":128}
+}},
+"animations": {
+	"Dying/0_Orc_Dying": ["Dying/0_Orc_Dying_000.png","Dying/0_Orc_Dying_001.png","Dying/0_Orc_Dying_002.png","Dying/0_Orc_Dying_003.png","Dying/0_Orc_Dying_004.png","Dying/0_Orc_Dying_005.png","Dying/0_Orc_Dying_006.png","Dying/0_Orc_Dying_007.png","Dying/0_Orc_Dying_008.png","Dying/0_Orc_Dying_009.png","Dying/0_Orc_Dying_010.png","Dying/0_Orc_Dying_011.png","Dying/0_Orc_Dying_012.png","Dying/0_Orc_Dying_013.png","Dying/0_Orc_Dying_014.png"],
+	"Falling Down/0_Orc_Falling Down": ["Falling Down/0_Orc_Falling Down_000.png","Falling Down/0_Orc_Falling Down_001.png","Falling Down/0_Orc_Falling Down_002.png","Falling Down/0_Orc_Falling Down_003.png","Falling Down/0_Orc_Falling Down_004.png","Falling Down/0_Orc_Falling Down_005.png"],
+	"Hurt/0_Orc_Hurt": ["Hurt/0_Orc_Hurt_000.png","Hurt/0_Orc_Hurt_001.png","Hurt/0_Orc_Hurt_002.png","Hurt/0_Orc_Hurt_003.png","Hurt/0_Orc_Hurt_004.png","Hurt/0_Orc_Hurt_005.png","Hurt/0_Orc_Hurt_006.png","Hurt/0_Orc_Hurt_007.png","Hurt/0_Orc_Hurt_008.png","Hurt/0_Orc_Hurt_009.png","Hurt/0_Orc_Hurt_010.png","Hurt/0_Orc_Hurt_011.png"],
+	"Idle Blinking/0_Orc_Idle Blinking": ["Idle Blinking/0_Orc_Idle Blinking_000.png","Idle Blinking/0_Orc_Idle Blinking_001.png","Idle Blinking/0_Orc_Idle Blinking_002.png","Idle Blinking/0_Orc_Idle Blinking_003.png","Idle Blinking/0_Orc_Idle Blinking_004.png","Idle Blinking/0_Orc_Idle Blinking_005.png","Idle Blinking/0_Orc_Idle Blinking_006.png","Idle Blinking/0_Orc_Idle Blinking_007.png","Idle Blinking/0_Orc_Idle Blinking_008.png","Idle Blinking/0_Orc_Idle Blinking_009.png","Idle Blinking/0_Orc_Idle Blinking_010.png","Idle Blinking/0_Orc_Idle Blinking_011.png","Idle Blinking/0_Orc_Idle Blinking_012.png","Idle Blinking/0_Orc_Idle Blinking_013.png","Idle Blinking/0_Orc_Idle Blinking_014.png","Idle Blinking/0_Orc_Idle Blinking_015.png","Idle Blinking/0_Orc_Idle Blinking_016.png","Idle Blinking/0_Orc_Idle Blinking_017.png"],
+	"Idle/0_Orc_Idle": ["Idle/0_Orc_Idle_000.png","Idle/0_Orc_Idle_001.png","Idle/0_Orc_Idle_002.png","Idle/0_Orc_Idle_003.png","Idle/0_Orc_Idle_004.png","Idle/0_Orc_Idle_005.png","Idle/0_Orc_Idle_006.png","Idle/0_Orc_Idle_007.png","Idle/0_Orc_Idle_008.png","Idle/0_Orc_Idle_009.png","Idle/0_Orc_Idle_010.png","Idle/0_Orc_Idle_011.png","Idle/0_Orc_Idle_012.png","Idle/0_Orc_Idle_013.png","Idle/0_Orc_Idle_014.png","Idle/0_Orc_Idle_015.png","Idle/0_Orc_Idle_016.png","Idle/0_Orc_Idle_017.png"],
+	"Jump Loop/0_Orc_Jump Loop": ["Jump Loop/0_Orc_Jump Loop_000.png","Jump Loop/0_Orc_Jump Loop_001.png","Jump Loop/0_Orc_Jump Loop_002.png","Jump Loop/0_Orc_Jump Loop_003.png","Jump Loop/0_Orc_Jump Loop_004.png","Jump Loop/0_Orc_Jump Loop_005.png"],
+	"Jump Start/0_Orc_Jump Start": ["Jump Start/0_Orc_Jump Start_000.png","Jump Start/0_Orc_Jump Start_001.png","Jump Start/0_Orc_Jump Start_002.png","Jump Start/0_Orc_Jump Start_003.png","Jump Start/0_Orc_Jump Start_004.png","Jump Start/0_Orc_Jump Start_005.png"],
+	"Kicking/0_Orc_Kicking": ["Kicking/0_Orc_Kicking_000.png","Kicking/0_Orc_Kicking_001.png","Kicking/0_Orc_Kicking_002.png","Kicking/0_Orc_Kicking_003.png","Kicking/0_Orc_Kicking_004.png","Kicking/0_Orc_Kicking_005.png","Kicking/0_Orc_Kicking_006.png","Kicking/0_Orc_Kicking_007.png","Kicking/0_Orc_Kicking_008.png","Kicking/0_Orc_Kicking_009.png","Kicking/0_Orc_Kicking_010.png","Kicking/0_Orc_Kicking_011.png"],
+	"Run Slashing/0_Orc_Run Slashing": ["Run Slashing/0_Orc_Run Slashing_000.png","Run Slashing/0_Orc_Run Slashing_001.png","Run Slashing/0_Orc_Run Slashing_002.png","Run Slashing/0_Orc_Run Slashing_003.png","Run Slashing/0_Orc_Run Slashing_004.png","Run Slashing/0_Orc_Run Slashing_005.png","Run Slashing/0_Orc_Run Slashing_006.png","Run Slashing/0_Orc_Run Slashing_007.png","Run Slashing/0_Orc_Run Slashing_008.png","Run Slashing/0_Orc_Run Slashing_009.png","Run Slashing/0_Orc_Run Slashing_010.png","Run Slashing/0_Orc_Run Slashing_011.png"],
+	"Run Throwing/0_Orc_Run Throwing": ["Run Throwing/0_Orc_Run Throwing_000.png","Run Throwing/0_Orc_Run Throwing_001.png","Run Throwing/0_Orc_Run Throwing_002.png","Run Throwing/0_Orc_Run Throwing_003.png","Run Throwing/0_Orc_Run Throwing_004.png","Run Throwing/0_Orc_Run Throwing_005.png","Run Throwing/0_Orc_Run Throwing_006.png","Run Throwing/0_Orc_Run Throwing_007.png","Run Throwing/0_Orc_Run Throwing_008.png","Run Throwing/0_Orc_Run Throwing_009.png","Run Throwing/0_Orc_Run Throwing_010.png","Run Throwing/0_Orc_Run Throwing_011.png"],
+	"Running/0_Orc_Running": ["Running/0_Orc_Running_000.png","Running/0_Orc_Running_001.png","Running/0_Orc_Running_002.png","Running/0_Orc_Running_003.png","Running/0_Orc_Running_004.png","Running/0_Orc_Running_005.png","Running/0_Orc_Running_006.png","Running/0_Orc_Running_007.png","Running/0_Orc_Running_008.png","Running/0_Orc_Running_009.png","Running/0_Orc_Running_010.png","Running/0_Orc_Running_011.png"],
+	"Slashing in The Air/0_Orc_Slashing in The Air": ["Slashing in The Air/0_Orc_Slashing in The Air_000.png","Slashing in The Air/0_Orc_Slashing in The Air_001.png","Slashing in The Air/0_Orc_Slashing in The Air_002.png","Slashing in The Air/0_Orc_Slashing in The Air_003.png","Slashing in The Air/0_Orc_Slashing in The Air_004.png","Slashing in The Air/0_Orc_Slashing in The Air_005.png","Slashing in The Air/0_Orc_Slashing in The Air_006.png","Slashing in The Air/0_Orc_Slashing in The Air_007.png","Slashing in The Air/0_Orc_Slashing in The Air_008.png","Slashing in The Air/0_Orc_Slashing in The Air_009.png","Slashing in The Air/0_Orc_Slashing in The Air_010.png","Slashing in The Air/0_Orc_Slashing in The Air_011.png"],
+	"Slashing/0_Orc_Slashing": ["Slashing/0_Orc_Slashing_000.png","Slashing/0_Orc_Slashing_001.png","Slashing/0_Orc_Slashing_002.png","Slashing/0_Orc_Slashing_003.png","Slashing/0_Orc_Slashing_004.png","Slashing/0_Orc_Slashing_005.png","Slashing/0_Orc_Slashing_006.png","Slashing/0_Orc_Slashing_007.png","Slashing/0_Orc_Slashing_008.png","Slashing/0_Orc_Slashing_009.png","Slashing/0_Orc_Slashing_010.png","Slashing/0_Orc_Slashing_011.png"],
+	"Sliding/0_Orc_Sliding": ["Sliding/0_Orc_Sliding_000.png","Sliding/0_Orc_Sliding_001.png","Sliding/0_Orc_Sliding_002.png","Sliding/0_Orc_Sliding_003.png","Sliding/0_Orc_Sliding_004.png","Sliding/0_Orc_Sliding_005.png"],
+	"Throwing in The Air/0_Orc_Throwing in The Air": ["Throwing in The Air/0_Orc_Throwing in The Air_000.png","Throwing in The Air/0_Orc_Throwing in The Air_001.png","Throwing in The Air/0_Orc_Throwing in The Air_002.png","Throwing in The Air/0_Orc_Throwing in The Air_003.png","Throwing in The Air/0_Orc_Throwing in The Air_004.png","Throwing in The Air/0_Orc_Throwing in The Air_005.png","Throwing in The Air/0_Orc_Throwing in The Air_006.png","Throwing in The Air/0_Orc_Throwing in The Air_007.png","Throwing in The Air/0_Orc_Throwing in The Air_008.png","Throwing in The Air/0_Orc_Throwing in The Air_009.png","Throwing in The Air/0_Orc_Throwing in The Air_010.png","Throwing in The Air/0_Orc_Throwing in The Air_011.png"],
+	"Throwing/0_Orc_Throwing": ["Throwing/0_Orc_Throwing_000.png","Throwing/0_Orc_Throwing_001.png","Throwing/0_Orc_Throwing_002.png","Throwing/0_Orc_Throwing_003.png","Throwing/0_Orc_Throwing_004.png","Throwing/0_Orc_Throwing_005.png","Throwing/0_Orc_Throwing_006.png","Throwing/0_Orc_Throwing_007.png","Throwing/0_Orc_Throwing_008.png","Throwing/0_Orc_Throwing_009.png","Throwing/0_Orc_Throwing_010.png","Throwing/0_Orc_Throwing_011.png"],
+	"Walking/0_Orc_Walking": ["Walking/0_Orc_Walking_000.png","Walking/0_Orc_Walking_001.png","Walking/0_Orc_Walking_002.png","Walking/0_Orc_Walking_003.png","Walking/0_Orc_Walking_004.png","Walking/0_Orc_Walking_005.png","Walking/0_Orc_Walking_006.png","Walking/0_Orc_Walking_007.png","Walking/0_Orc_Walking_008.png","Walking/0_Orc_Walking_009.png","Walking/0_Orc_Walking_010.png","Walking/0_Orc_Walking_011.png","Walking/0_Orc_Walking_012.png","Walking/0_Orc_Walking_013.png","Walking/0_Orc_Walking_014.png","Walking/0_Orc_Walking_015.png","Walking/0_Orc_Walking_016.png","Walking/0_Orc_Walking_017.png","Walking/0_Orc_Walking_018.png","Walking/0_Orc_Walking_019.png","Walking/0_Orc_Walking_020.png","Walking/0_Orc_Walking_021.png","Walking/0_Orc_Walking_022.png","Walking/0_Orc_Walking_023.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.1",
+	"image": "orc-01-128x128-0.png",
+	"format": "RGBA8888",
+	"size": {"w":1023,"h":1352},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:ac0c6d0da29afbb5a74586f90d67accc:e6a81647c4e12e0852565f9b9fe798d4:870f4232c243a291758311cb8884d962$"
+}
+}
