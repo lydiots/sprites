@@ -3,7 +3,7 @@ export interface Orc01Atlas {
   name: 'orc-01';
   sizes: {
     '128x128': {
-      imagePath: 'https://lydiots.github.io/sprites-assets/characters/orc-01/orc-01-128x128-0.png';
+      imagePath: 'https://cdn.lydiots.com/assets/characters/orc-01/orc-01-128x128-0.png';
       frameCount: 207;
       atlasSize: { w: 1023, h: 1352 };
       animations: {
@@ -27,7 +27,7 @@ export interface Orc01Atlas {
       };
     };
     '32x32': {
-      imagePath: 'https://lydiots.github.io/sprites-assets/characters/orc-01/orc-01-32x32-0.png';
+      imagePath: 'https://cdn.lydiots.com/assets/characters/orc-01/orc-01-32x32-0.png';
       frameCount: 207;
       atlasSize: { w: 1242, h: 122 };
       animations: {
@@ -51,7 +51,7 @@ export interface Orc01Atlas {
       };
     };
     '64x64': {
-      imagePath: 'https://lydiots.github.io/sprites-assets/characters/orc-01/orc-01-64x64-0.png';
+      imagePath: 'https://cdn.lydiots.com/assets/characters/orc-01/orc-01-64x64-0.png';
       frameCount: 207;
       atlasSize: { w: 1679, h: 254 };
       animations: {
@@ -84,7 +84,7 @@ export const orc01Atlas: Orc01Atlas = {
   name: 'orc-01',
   sizes: {
     '128x128': {
-      imagePath: 'https://lydiots.github.io/sprites-assets/characters/orc-01/orc-01-128x128-0.png',
+      imagePath: 'https://cdn.lydiots.com/assets/characters/orc-01/orc-01-128x128-0.png',
       frameCount: 207,
       atlasSize: { w: 1023, h: 1352 },
       animations: {
@@ -108,7 +108,7 @@ export const orc01Atlas: Orc01Atlas = {
       },
     },
     '32x32': {
-      imagePath: 'https://lydiots.github.io/sprites-assets/characters/orc-01/orc-01-32x32-0.png',
+      imagePath: 'https://cdn.lydiots.com/assets/characters/orc-01/orc-01-32x32-0.png',
       frameCount: 207,
       atlasSize: { w: 1242, h: 122 },
       animations: {
@@ -132,7 +132,7 @@ export const orc01Atlas: Orc01Atlas = {
       },
     },
     '64x64': {
-      imagePath: 'https://lydiots.github.io/sprites-assets/characters/orc-01/orc-01-64x64-0.png',
+      imagePath: 'https://cdn.lydiots.com/assets/characters/orc-01/orc-01-64x64-0.png',
       frameCount: 207,
       atlasSize: { w: 1679, h: 254 },
       animations: {

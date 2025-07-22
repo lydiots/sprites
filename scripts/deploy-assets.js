@@ -6,7 +6,7 @@ const path = require("path");
 // Configuration for CDN deployment
 const CDN_CONFIG = {
   // Recommended: Netlify with custom domain
-  baseUrl: "https://cdn.lydiots.com",
+  baseUrl: "https://cdn.lydiots.com/assets",
 
   // Alternative options:
   // GitHub Pages: 'https://lydiots.github.io/sprites-assets',
@@ -82,34 +82,32 @@ async function generateDeploymentManifest() {
 }
 
 async function main() {
-  console.log("🚀 Sprite Assets CDN Deployment Helper\n");
+  console.log("🚀 Sprite Assets CDN Information\n");
+  console.log("ℹ️  CDN is now handled by a separate repository");
+  console.log("📍 CDN Repository: https://github.com/lydiots/sprites-cdn");
+  console.log("🌐 CDN URL: https://cdn.lydiots.com");
+  console.log("");
 
   try {
     await updateTypeDefinitionsWithCDN();
     await generateDeploymentManifest();
 
-    console.log("\n🎯 CDN Deployment Options:");
+    console.log("\n📋 CDN Deployment Workflow:");
     console.log("");
-    console.log("1️⃣  GitHub Pages (Free):");
-    console.log("   - Create separate repo: sprites-assets");
-    console.log("   - Copy dist/characters/ to repo");
-    console.log("   - Enable GitHub Pages");
-    console.log("   - URL: https://lydiots.github.io/sprites-assets");
+    console.log("1️⃣  Update sprites in this repo:");
+    console.log("   npm run build:atlas");
+    console.log("   npm run generate:types:cdn");
     console.log("");
-    console.log("2️⃣  Netlify (Free):");
-    console.log("   - Drag & drop dist/characters/ folder");
-    console.log("   - Get custom URL");
-    console.log("   - Automatic HTTPS & global CDN");
+    console.log("2️⃣  Copy assets to CDN repo:");
+    console.log("   cp -r dist/characters/* ../sprites-cdn/characters/");
     console.log("");
-    console.log("3️⃣  Cloudflare Pages (Free):");
-    console.log("   - Connect GitHub repo");
-    console.log("   - Automatic deployments");
-    console.log("   - Global edge network");
+    console.log("3️⃣  Deploy CDN repo:");
+    console.log(
+      "   cd ../sprites-cdn && git add . && git commit -m 'Update assets' && git push"
+    );
     console.log("");
-    console.log("4️⃣  AWS S3 + CloudFront:");
-    console.log("   - Upload to S3 bucket");
-    console.log("   - Configure CloudFront distribution");
-    console.log("   - Custom domain support");
+    console.log("4️⃣  Publish npm package:");
+    console.log("   npm publish");
   } catch (error) {
     console.error("❌ Error:", error.message);
     process.exit(1);

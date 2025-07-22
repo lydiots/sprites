@@ -5,6 +5,10 @@ scripts/
 demo/
 tsconfig.json
 
+# CDN deployment files
+netlify-assets/
+deployment-manifest.json
+
 # Asset files (hosted on CDN)
 dist/characters/
 *.png

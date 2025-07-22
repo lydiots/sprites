@@ -1,5 +1,5 @@
 // Auto-generated sprite atlas types
-// Generated on 2025-07-22T17:43:23.206Z
+// Generated on 2025-07-22T18:37:01.771Z
 
 export * from './goblin-01';
 export * from './golem-01';

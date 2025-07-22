@@ -3,7 +3,7 @@ export interface Golem02Atlas {
   name: 'golem-02';
   sizes: {
     '128x128': {
-      imagePath: 'https://lydiots.github.io/sprites-assets/characters/golem-02/golem-02-128x128-0.png';
+      imagePath: 'https://cdn.lydiots.com/assets/characters/golem-02/golem-02-128x128-0.png';
       frameCount: 207;
       atlasSize: { w: 1023, h: 1308 };
       animations: {
@@ -27,7 +27,7 @@ export interface Golem02Atlas {
       };
     };
     '32x32': {
-      imagePath: 'https://lydiots.github.io/sprites-assets/characters/golem-02/golem-02-32x32-0.png';
+      imagePath: 'https://cdn.lydiots.com/assets/characters/golem-02/golem-02-32x32-0.png';
       frameCount: 207;
       atlasSize: { w: 1000, h: 145 };
       animations: {
@@ -51,7 +51,7 @@ export interface Golem02Atlas {
       };
     };
     '64x64': {
-      imagePath: 'https://lydiots.github.io/sprites-assets/characters/golem-02/golem-02-64x64-0.png';
+      imagePath: 'https://cdn.lydiots.com/assets/characters/golem-02/golem-02-64x64-0.png';
       frameCount: 207;
       atlasSize: { w: 1622, h: 253 };
       animations: {
@@ -84,7 +84,7 @@ export const golem02Atlas: Golem02Atlas = {
   name: 'golem-02',
   sizes: {
     '128x128': {
-      imagePath: 'https://lydiots.github.io/sprites-assets/characters/golem-02/golem-02-128x128-0.png',
+      imagePath: 'https://cdn.lydiots.com/assets/characters/golem-02/golem-02-128x128-0.png',
       frameCount: 207,
       atlasSize: { w: 1023, h: 1308 },
       animations: {
@@ -108,7 +108,7 @@ export const golem02Atlas: Golem02Atlas = {
       },
     },
     '32x32': {
-      imagePath: 'https://lydiots.github.io/sprites-assets/characters/golem-02/golem-02-32x32-0.png',
+      imagePath: 'https://cdn.lydiots.com/assets/characters/golem-02/golem-02-32x32-0.png',
       frameCount: 207,
       atlasSize: { w: 1000, h: 145 },
       animations: {
@@ -132,7 +132,7 @@ export const golem02Atlas: Golem02Atlas = {
       },
     },
     '64x64': {
-      imagePath: 'https://lydiots.github.io/sprites-assets/characters/golem-02/golem-02-64x64-0.png',
+      imagePath: 'https://cdn.lydiots.com/assets/characters/golem-02/golem-02-64x64-0.png',
       frameCount: 207,
       atlasSize: { w: 1622, h: 253 },
       animations: {

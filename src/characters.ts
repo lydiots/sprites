@@ -1,5 +1,5 @@
 // Auto-generated Characters object for easy sprite access
-// Generated on 2025-07-22T17:43:23.208Z
+// Generated on 2025-07-22T18:37:01.772Z
 
 import type { Goblin01Atlas } from './goblin-01';
 import type { Golem01Atlas } from './golem-01';
@@ -15,7 +15,7 @@ export const Characters = {
     atlas: () => import('./goblin-01').then(m => m.goblin01Atlas),
     sizes: {
       '128x128': {
-        imagePath: 'https://lydiots.github.io/sprites-assets/characters/goblin-01/goblin-01-128x128-0.png',
+        imagePath: 'https://cdn.lydiots.com/assets/characters/goblin-01/goblin-01-128x128-0.png',
         frameCount: 207,
         atlasSize: { w: 1022, h: 1225 },
         animations: {
@@ -39,7 +39,7 @@ export const Characters = {
         },
       },
       '32x32': {
-        imagePath: 'https://lydiots.github.io/sprites-assets/characters/goblin-01/goblin-01-32x32-0.png',
+        imagePath: 'https://cdn.lydiots.com/assets/characters/goblin-01/goblin-01-32x32-0.png',
         frameCount: 207,
         atlasSize: { w: 500, h: 286 },
         animations: {
@@ -63,7 +63,7 @@ export const Characters = {
         },
       },
       '64x64': {
-        imagePath: 'https://lydiots.github.io/sprites-assets/characters/goblin-01/goblin-01-64x64-0.png',
+        imagePath: 'https://cdn.lydiots.com/assets/characters/goblin-01/goblin-01-64x64-0.png',
         frameCount: 207,
         atlasSize: { w: 1978, h: 197 },
         animations: {
@@ -93,7 +93,7 @@ export const Characters = {
     atlas: () => import('./golem-01').then(m => m.golem01Atlas),
     sizes: {
       '128x128': {
-        imagePath: 'https://lydiots.github.io/sprites-assets/characters/golem-01/golem-01-128x128-0.png',
+        imagePath: 'https://cdn.lydiots.com/assets/characters/golem-01/golem-01-128x128-0.png',
         frameCount: 207,
         atlasSize: { w: 1022, h: 1281 },
         animations: {
@@ -117,7 +117,7 @@ export const Characters = {
         },
       },
       '32x32': {
-        imagePath: 'https://lydiots.github.io/sprites-assets/characters/golem-01/golem-01-32x32-0.png',
+        imagePath: 'https://cdn.lydiots.com/assets/characters/golem-01/golem-01-32x32-0.png',
         frameCount: 207,
         atlasSize: { w: 570, h: 256 },
         animations: {
@@ -141,7 +141,7 @@ export const Characters = {
         },
       },
       '64x64': {
-        imagePath: 'https://lydiots.github.io/sprites-assets/characters/golem-01/golem-01-64x64-0.png',
+        imagePath: 'https://cdn.lydiots.com/assets/characters/golem-01/golem-01-64x64-0.png',
         frameCount: 207,
         atlasSize: { w: 1008, h: 395 },
         animations: {
@@ -171,7 +171,7 @@ export const Characters = {
     atlas: () => import('./golem-02').then(m => m.golem02Atlas),
     sizes: {
       '128x128': {
-        imagePath: 'https://lydiots.github.io/sprites-assets/characters/golem-02/golem-02-128x128-0.png',
+        imagePath: 'https://cdn.lydiots.com/assets/characters/golem-02/golem-02-128x128-0.png',
         frameCount: 207,
         atlasSize: { w: 1023, h: 1308 },
         animations: {
@@ -195,7 +195,7 @@ export const Characters = {
         },
       },
       '32x32': {
-        imagePath: 'https://lydiots.github.io/sprites-assets/characters/golem-02/golem-02-32x32-0.png',
+        imagePath: 'https://cdn.lydiots.com/assets/characters/golem-02/golem-02-32x32-0.png',
         frameCount: 207,
         atlasSize: { w: 1000, h: 145 },
         animations: {
@@ -219,7 +219,7 @@ export const Characters = {
         },
       },
       '64x64': {
-        imagePath: 'https://lydiots.github.io/sprites-assets/characters/golem-02/golem-02-64x64-0.png',
+        imagePath: 'https://cdn.lydiots.com/assets/characters/golem-02/golem-02-64x64-0.png',
         frameCount: 207,
         atlasSize: { w: 1622, h: 253 },
         animations: {
@@ -249,7 +249,7 @@ export const Characters = {
     atlas: () => import('./golem-03').then(m => m.golem03Atlas),
     sizes: {
       '128x128': {
-        imagePath: 'https://lydiots.github.io/sprites-assets/characters/golem-03/golem-03-128x128-0.png',
+        imagePath: 'https://cdn.lydiots.com/assets/characters/golem-03/golem-03-128x128-0.png',
         frameCount: 207,
         atlasSize: { w: 1016, h: 1203 },
         animations: {
@@ -273,7 +273,7 @@ export const Characters = {
         },
       },
       '32x32': {
-        imagePath: 'https://lydiots.github.io/sprites-assets/characters/golem-03/golem-03-32x32-0.png',
+        imagePath: 'https://cdn.lydiots.com/assets/characters/golem-03/golem-03-32x32-0.png',
         frameCount: 207,
         atlasSize: { w: 115, h: 1218 },
         animations: {
@@ -297,7 +297,7 @@ export const Characters = {
         },
       },
       '64x64': {
-        imagePath: 'https://lydiots.github.io/sprites-assets/characters/golem-03/golem-03-64x64-0.png',
+        imagePath: 'https://cdn.lydiots.com/assets/characters/golem-03/golem-03-64x64-0.png',
         frameCount: 207,
         atlasSize: { w: 1014, h: 381 },
         animations: {
@@ -327,7 +327,7 @@ export const Characters = {
     atlas: () => import('./ogre-01').then(m => m.ogre01Atlas),
     sizes: {
       '128x128': {
-        imagePath: 'https://lydiots.github.io/sprites-assets/characters/ogre-01/ogre-01-128x128-0.png',
+        imagePath: 'https://cdn.lydiots.com/assets/characters/ogre-01/ogre-01-128x128-0.png',
         frameCount: 207,
         atlasSize: { w: 2045, h: 614 },
         animations: {
@@ -351,7 +351,7 @@ export const Characters = {
         },
       },
       '32x32': {
-        imagePath: 'https://lydiots.github.io/sprites-assets/characters/ogre-01/ogre-01-32x32-0.png',
+        imagePath: 'https://cdn.lydiots.com/assets/characters/ogre-01/ogre-01-32x32-0.png',
         frameCount: 207,
         atlasSize: { w: 511, h: 285 },
         animations: {
@@ -375,7 +375,7 @@ export const Characters = {
         },
       },
       '64x64': {
-        imagePath: 'https://lydiots.github.io/sprites-assets/characters/ogre-01/ogre-01-64x64-0.png',
+        imagePath: 'https://cdn.lydiots.com/assets/characters/ogre-01/ogre-01-64x64-0.png',
         frameCount: 207,
         atlasSize: { w: 1018, h: 388 },
         animations: {
@@ -405,7 +405,7 @@ export const Characters = {
     atlas: () => import('./orc-01').then(m => m.orc01Atlas),
     sizes: {
       '128x128': {
-        imagePath: 'https://lydiots.github.io/sprites-assets/characters/orc-01/orc-01-128x128-0.png',
+        imagePath: 'https://cdn.lydiots.com/assets/characters/orc-01/orc-01-128x128-0.png',
         frameCount: 207,
         atlasSize: { w: 1023, h: 1352 },
         animations: {
@@ -429,7 +429,7 @@ export const Characters = {
         },
       },
       '32x32': {
-        imagePath: 'https://lydiots.github.io/sprites-assets/characters/orc-01/orc-01-32x32-0.png',
+        imagePath: 'https://cdn.lydiots.com/assets/characters/orc-01/orc-01-32x32-0.png',
         frameCount: 207,
         atlasSize: { w: 1242, h: 122 },
         animations: {
@@ -453,7 +453,7 @@ export const Characters = {
         },
       },
       '64x64': {
-        imagePath: 'https://lydiots.github.io/sprites-assets/characters/orc-01/orc-01-64x64-0.png',
+        imagePath: 'https://cdn.lydiots.com/assets/characters/orc-01/orc-01-64x64-0.png',
         frameCount: 207,
         atlasSize: { w: 1679, h: 254 },
         animations: {

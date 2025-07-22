@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist/",
+    "dist/*.js",
+    "dist/*.d.ts",
     "LICENSE.md",
     "README.md"
   ],
@@ -14,9 +15,10 @@
     "build": "tsc -p tsconfig.json",
     "build:atlas": "node scripts/buildAtlas.js",
     "generate:types": "node scripts/generate-types.js",
-    "deploy:assets": "node scripts/deploy-assets.js",
-    "setup:netlify": "node scripts/setup-netlify-cdn.js",
-    "prepublishOnly": "npm run build && npm run generate:types"
+    "generate:types:cdn": "CDN_BASE_URL=https://cdn.lydiots.com/assets npm run generate:types",
+    "sync:cdn": "node scripts/sync-to-cdn.js",
+    "deploy:info": "node scripts/deploy-assets.js",
+    "prepublishOnly": "npm run build && npm run generate:types:cdn"
   },
   "repository": {
     "type": "git",

@@ -1,220 +1,220 @@
 {
   "version": "0.1.0",
-  "baseUrl": "https://lydiots.github.io/sprites-assets",
+  "baseUrl": "https://cdn.lydiots.com",
   "assets": [
     {
       "path": "characters/goblin-01/goblin-01-128x128-0.png",
-      "url": "https://lydiots.github.io/sprites-assets/characters/goblin-01/goblin-01-128x128-0.png",
+      "url": "https://cdn.lydiots.com/characters/goblin-01/goblin-01-128x128-0.png",
       "size": 1519053,
       "type": "png"
     },
     {
       "path": "characters/goblin-01/goblin-01-128x128.json",
-      "url": "https://lydiots.github.io/sprites-assets/characters/goblin-01/goblin-01-128x128.json",
+      "url": "https://cdn.lydiots.com/characters/goblin-01/goblin-01-128x128.json",
       "size": 52589,
       "type": "json"
     },
     {
       "path": "characters/goblin-01/goblin-01-32x32-0.png",
-      "url": "https://lydiots.github.io/sprites-assets/characters/goblin-01/goblin-01-32x32-0.png",
+      "url": "https://cdn.lydiots.com/characters/goblin-01/goblin-01-32x32-0.png",
       "size": 193167,
       "type": "png"
     },
     {
       "path": "characters/goblin-01/goblin-01-32x32.json",
-      "url": "https://lydiots.github.io/sprites-assets/characters/goblin-01/goblin-01-32x32.json",
+      "url": "https://cdn.lydiots.com/characters/goblin-01/goblin-01-32x32.json",
       "size": 70377,
       "type": "json"
     },
     {
       "path": "characters/goblin-01/goblin-01-64x64-0.png",
-      "url": "https://lydiots.github.io/sprites-assets/characters/goblin-01/goblin-01-64x64-0.png",
+      "url": "https://cdn.lydiots.com/characters/goblin-01/goblin-01-64x64-0.png",
       "size": 499738,
       "type": "png"
     },
     {
       "path": "characters/goblin-01/goblin-01-64x64.json",
-      "url": "https://lydiots.github.io/sprites-assets/characters/goblin-01/goblin-01-64x64.json",
+      "url": "https://cdn.lydiots.com/characters/goblin-01/goblin-01-64x64.json",
       "size": 52074,
       "type": "json"
     },
     {
       "path": "characters/golem-01/golem-01-128x128-0.png",
-      "url": "https://lydiots.github.io/sprites-assets/characters/golem-01/golem-01-128x128-0.png",
+      "url": "https://cdn.lydiots.com/characters/golem-01/golem-01-128x128-0.png",
       "size": 2145177,
       "type": "png"
     },
     {
       "path": "characters/golem-01/golem-01-128x128.json",
-      "url": "https://lydiots.github.io/sprites-assets/characters/golem-01/golem-01-128x128.json",
+      "url": "https://cdn.lydiots.com/characters/golem-01/golem-01-128x128.json",
       "size": 52157,
       "type": "json"
     },
     {
       "path": "characters/golem-01/golem-01-32x32-0.png",
-      "url": "https://lydiots.github.io/sprites-assets/characters/golem-01/golem-01-32x32-0.png",
+      "url": "https://cdn.lydiots.com/characters/golem-01/golem-01-32x32-0.png",
       "size": 231542,
       "type": "png"
     },
     {
       "path": "characters/golem-01/golem-01-32x32.json",
-      "url": "https://lydiots.github.io/sprites-assets/characters/golem-01/golem-01-32x32.json",
+      "url": "https://cdn.lydiots.com/characters/golem-01/golem-01-32x32.json",
       "size": 51286,
       "type": "json"
     },
     {
       "path": "characters/golem-01/golem-01-64x64-0.png",
-      "url": "https://lydiots.github.io/sprites-assets/characters/golem-01/golem-01-64x64-0.png",
+      "url": "https://cdn.lydiots.com/characters/golem-01/golem-01-64x64-0.png",
       "size": 681994,
       "type": "png"
     },
     {
       "path": "characters/golem-01/golem-01-64x64.json",
-      "url": "https://lydiots.github.io/sprites-assets/characters/golem-01/golem-01-64x64.json",
+      "url": "https://cdn.lydiots.com/characters/golem-01/golem-01-64x64.json",
       "size": 51612,
       "type": "json"
     },
     {
       "path": "characters/golem-02/golem-02-128x128-0.png",
-      "url": "https://lydiots.github.io/sprites-assets/characters/golem-02/golem-02-128x128-0.png",
+      "url": "https://cdn.lydiots.com/characters/golem-02/golem-02-128x128-0.png",
       "size": 2172317,
       "type": "png"
     },
     {
       "path": "characters/golem-02/golem-02-128x128.json",
-      "url": "https://lydiots.github.io/sprites-assets/characters/golem-02/golem-02-128x128.json",
+      "url": "https://cdn.lydiots.com/characters/golem-02/golem-02-128x128.json",
       "size": 52124,
       "type": "json"
     },
     {
       "path": "characters/golem-02/golem-02-32x32-0.png",
-      "url": "https://lydiots.github.io/sprites-assets/characters/golem-02/golem-02-32x32-0.png",
+      "url": "https://cdn.lydiots.com/characters/golem-02/golem-02-32x32-0.png",
       "size": 230223,
       "type": "png"
     },
     {
       "path": "characters/golem-02/golem-02-32x32.json",
-      "url": "https://lydiots.github.io/sprites-assets/characters/golem-02/golem-02-32x32.json",
+      "url": "https://cdn.lydiots.com/characters/golem-02/golem-02-32x32.json",
       "size": 51290,
       "type": "json"
     },
     {
       "path": "characters/golem-02/golem-02-64x64-0.png",
-      "url": "https://lydiots.github.io/sprites-assets/characters/golem-02/golem-02-64x64-0.png",
+      "url": "https://cdn.lydiots.com/characters/golem-02/golem-02-64x64-0.png",
       "size": 722587,
       "type": "png"
     },
     {
       "path": "characters/golem-02/golem-02-64x64.json",
-      "url": "https://lydiots.github.io/sprites-assets/characters/golem-02/golem-02-64x64.json",
+      "url": "https://cdn.lydiots.com/characters/golem-02/golem-02-64x64.json",
       "size": 51692,
       "type": "json"
     },
     {
       "path": "characters/golem-03/golem-03-128x128-0.png",
-      "url": "https://lydiots.github.io/sprites-assets/characters/golem-03/golem-03-128x128-0.png",
+      "url": "https://cdn.lydiots.com/characters/golem-03/golem-03-128x128-0.png",
       "size": 1532101,
       "type": "png"
     },
     {
       "path": "characters/golem-03/golem-03-128x128.json",
-      "url": "https://lydiots.github.io/sprites-assets/characters/golem-03/golem-03-128x128.json",
+      "url": "https://cdn.lydiots.com/characters/golem-03/golem-03-128x128.json",
       "size": 52126,
       "type": "json"
     },
     {
       "path": "characters/golem-03/golem-03-32x32-0.png",
-      "url": "https://lydiots.github.io/sprites-assets/characters/golem-03/golem-03-32x32-0.png",
+      "url": "https://cdn.lydiots.com/characters/golem-03/golem-03-32x32-0.png",
       "size": 177360,
       "type": "png"
     },
     {
       "path": "characters/golem-03/golem-03-32x32.json",
-      "url": "https://lydiots.github.io/sprites-assets/characters/golem-03/golem-03-32x32.json",
+      "url": "https://cdn.lydiots.com/characters/golem-03/golem-03-32x32.json",
       "size": 51127,
       "type": "json"
     },
     {
       "path": "characters/golem-03/golem-03-64x64-0.png",
-      "url": "https://lydiots.github.io/sprites-assets/characters/golem-03/golem-03-64x64-0.png",
+      "url": "https://cdn.lydiots.com/characters/golem-03/golem-03-64x64-0.png",
       "size": 577364,
       "type": "png"
     },
     {
       "path": "characters/golem-03/golem-03-64x64.json",
-      "url": "https://lydiots.github.io/sprites-assets/characters/golem-03/golem-03-64x64.json",
+      "url": "https://cdn.lydiots.com/characters/golem-03/golem-03-64x64.json",
       "size": 51727,
       "type": "json"
     },
     {
       "path": "characters/ogre-01/ogre-01-128x128-0.png",
-      "url": "https://lydiots.github.io/sprites-assets/characters/ogre-01/ogre-01-128x128-0.png",
+      "url": "https://cdn.lydiots.com/characters/ogre-01/ogre-01-128x128-0.png",
       "size": 1533919,
       "type": "png"
     },
     {
       "path": "characters/ogre-01/ogre-01-128x128.json",
-      "url": "https://lydiots.github.io/sprites-assets/characters/ogre-01/ogre-01-128x128.json",
+      "url": "https://cdn.lydiots.com/characters/ogre-01/ogre-01-128x128.json",
       "size": 51885,
       "type": "json"
     },
     {
       "path": "characters/ogre-01/ogre-01-32x32-0.png",
-      "url": "https://lydiots.github.io/sprites-assets/characters/ogre-01/ogre-01-32x32-0.png",
+      "url": "https://cdn.lydiots.com/characters/ogre-01/ogre-01-32x32-0.png",
       "size": 204281,
       "type": "png"
     },
     {
       "path": "characters/ogre-01/ogre-01-32x32.json",
-      "url": "https://lydiots.github.io/sprites-assets/characters/ogre-01/ogre-01-32x32.json",
+      "url": "https://cdn.lydiots.com/characters/ogre-01/ogre-01-32x32.json",
       "size": 50935,
       "type": "json"
     },
     {
       "path": "characters/ogre-01/ogre-01-64x64-0.png",
-      "url": "https://lydiots.github.io/sprites-assets/characters/ogre-01/ogre-01-64x64-0.png",
+      "url": "https://cdn.lydiots.com/characters/ogre-01/ogre-01-64x64-0.png",
       "size": 534303,
       "type": "png"
     },
     {
       "path": "characters/ogre-01/ogre-01-64x64.json",
-      "url": "https://lydiots.github.io/sprites-assets/characters/ogre-01/ogre-01-64x64.json",
+      "url": "https://cdn.lydiots.com/characters/ogre-01/ogre-01-64x64.json",
       "size": 51152,
       "type": "json"
     },
     {
       "path": "characters/orc-01/orc-01-128x128-0.png",
-      "url": "https://lydiots.github.io/sprites-assets/characters/orc-01/orc-01-128x128-0.png",
+      "url": "https://cdn.lydiots.com/characters/orc-01/orc-01-128x128-0.png",
       "size": 1777416,
       "type": "png"
     },
     {
       "path": "characters/orc-01/orc-01-128x128.json",
-      "url": "https://lydiots.github.io/sprites-assets/characters/orc-01/orc-01-128x128.json",
+      "url": "https://cdn.lydiots.com/characters/orc-01/orc-01-128x128.json",
       "size": 51297,
       "type": "json"
     },
     {
       "path": "characters/orc-01/orc-01-32x32-0.png",
-      "url": "https://lydiots.github.io/sprites-assets/characters/orc-01/orc-01-32x32-0.png",
+      "url": "https://cdn.lydiots.com/characters/orc-01/orc-01-32x32-0.png",
       "size": 219491,
       "type": "png"
     },
     {
       "path": "characters/orc-01/orc-01-32x32.json",
-      "url": "https://lydiots.github.io/sprites-assets/characters/orc-01/orc-01-32x32.json",
+      "url": "https://cdn.lydiots.com/characters/orc-01/orc-01-32x32.json",
       "size": 50429,
       "type": "json"
     },
     {
       "path": "characters/orc-01/orc-01-64x64-0.png",
-      "url": "https://lydiots.github.io/sprites-assets/characters/orc-01/orc-01-64x64-0.png",
+      "url": "https://cdn.lydiots.com/characters/orc-01/orc-01-64x64-0.png",
       "size": 618951,
       "type": "png"
     },
     {
       "path": "characters/orc-01/orc-01-64x64.json",
-      "url": "https://lydiots.github.io/sprites-assets/characters/orc-01/orc-01-64x64.json",
+      "url": "https://cdn.lydiots.com/characters/orc-01/orc-01-64x64.json",
       "size": 50776,
       "type": "json"
     }
