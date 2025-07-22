@@ -6,8 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -p tsconfig.json",
+    "build:atlas": "node scripts/buildAtlas.js",
     "generate:types": "node scripts/generate-types.js",
-    "prepublishOnly": "npm run build && npm run generate:types"
+    "prepublishOnly": "npm run build && npm run build:atlas && npm run generate:types"
   },
   "repository": {
     "type": "git",
