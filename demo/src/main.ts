@@ -4,6 +4,7 @@ import {
   Assets,
   Spritesheet,
   AnimatedSprite,
+  Sprite,
   Texture,
 } from "pixi.js";
 
@@ -224,27 +225,94 @@ class SpritesDemo {
       this.app.stage.removeChild(this.currentSprite);
     }
 
-    // Create a simple animated sprite for demo purposes
-    // In a real application, you'd load the actual atlas files
-    const placeholder = this.createAnimatedPlaceholder();
+    try {
+      // Load the actual sprite atlas
+      const sprite = await this.loadSpriteFromAtlas();
+      this.currentSprite = sprite;
+      this.app.stage.addChild(this.currentSprite);
 
-    this.currentSprite = placeholder;
-    this.app.stage.addChild(this.currentSprite);
+      // Center the sprite
+      this.currentSprite.x = this.app.screen.width / 2;
+      this.currentSprite.y = this.app.screen.height / 2;
 
-    // Center the sprite
-    this.currentSprite.x = this.app.screen.width / 2;
-    this.currentSprite.y = this.app.screen.height / 2;
-    this.currentSprite.anchor.set(0.5);
+      console.log(
+        "🎉 Real sprite loaded with perfect TypeScript autocomplete!"
+      );
+    } catch (error) {
+      console.error("Failed to load real sprite, using placeholder:", error);
+      this.createPlaceholderSprite();
+      return;
+    }
 
-    // Start animation
-    this.currentSprite.play();
-
-    console.log("🎉 Sprite loaded with perfect TypeScript autocomplete!");
     console.log("Character:", this.currentData?.characterKey);
     console.log("Size:", this.currentData?.size);
     console.log("Animation:", this.currentData?.animation);
     console.log("Frame Count:", this.currentData?.frameCount);
     console.log("Atlas Size:", this.currentData?.atlasSize);
+  }
+
+  private async loadSpriteFromAtlas(): Promise<AnimatedSprite> {
+    if (!this.currentData) throw new Error("No sprite data available");
+
+    const { characterKey, size, animation } = this.currentData;
+
+    // Construct paths to the atlas files (they are in character subdirectories)
+    const atlasPath = `../../dist/characters/${characterKey}/${characterKey}-${size}-0.json`;
+    const texturePath = `../../dist/characters/${characterKey}/${characterKey}-${size}-0.png`;
+
+    // Load the texture
+    const texture = await Assets.load(texturePath);
+
+    // Load the atlas data
+    const response = await fetch(atlasPath);
+    if (!response.ok) {
+      throw new Error(`Failed to load atlas: ${response.statusText}`);
+    }
+    const atlasData = await response.json();
+
+    // Create spritesheet from texture and atlas data
+    const spritesheet = new Spritesheet(texture, atlasData);
+    await spritesheet.parse();
+
+    // Find frames that match the animation name
+    const animationFrames: Texture[] = [];
+    const normalizedAnimation = animation
+      .toLowerCase()
+      .replace(/\s+/g, "")
+      .replace(/[^a-z0-9]/g, "");
+
+    // Look for frames that match the animation pattern
+    for (const frameName in spritesheet.textures) {
+      const normalizedFrameName = frameName
+        .toLowerCase()
+        .replace(/\s+/g, "")
+        .replace(/[^a-z0-9]/g, "");
+      if (normalizedFrameName.includes(normalizedAnimation)) {
+        animationFrames.push(spritesheet.textures[frameName]);
+      }
+    }
+
+    // If no specific animation frames found, try to get any frames
+    if (animationFrames.length === 0) {
+      const allFrames = Object.values(spritesheet.textures);
+      if (allFrames.length > 0) {
+        animationFrames.push(...allFrames.slice(0, 10)); // Take first 10 frames max
+      }
+    }
+
+    // If still no frames, throw error
+    if (animationFrames.length === 0) {
+      throw new Error("No frames found in atlas");
+    }
+
+    // Create animated sprite
+    const animatedSprite = new AnimatedSprite(animationFrames);
+    animatedSprite.anchor.set(0.5);
+    animatedSprite.animationSpeed = 0.1;
+    animatedSprite.loop = true;
+    animatedSprite.play();
+
+    return animatedSprite;
   }
 
   private createAnimatedPlaceholder(): AnimatedSprite {
